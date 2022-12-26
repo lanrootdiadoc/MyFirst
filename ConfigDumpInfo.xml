@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.РасчетыСКлиентами" id="5d9e50e6-73f1-445c-9634-455ce9985760" configVersion="64e65a9f48055f43a8bd1b606ba231e100000000">
+			<Metadata name="AccumulationRegister.РасчетыСКлиентами.Resource.Сумма" id="2c9181c3-ddc8-4168-a242-448ee8a2226f"/>
+			<Metadata name="AccumulationRegister.РасчетыСКлиентами.Dimension.Номенклатура" id="74cf382e-de39-42e8-b803-6ec8d57bb1b2"/>
+			<Metadata name="AccumulationRegister.РасчетыСКлиентами.Dimension.Клиент" id="b292d1db-2051-4082-ad4a-1f6c0f91f0b5"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыПитомцев" id="3e7260c9-078b-4ca8-b3e5-fa5e1c4357ec" configVersion="3eb0b5f99eb7bd46a9bb4cbd796389b100000000"/>
+		<Metadata name="Catalog.Клиенты" id="0322c76e-df93-4824-ad69-621c9334efeb" configVersion="b5981990ef843341a57be4f29d82509600000000">
+			<Metadata name="Catalog.Клиенты.Attribute.ДатаРождения" id="31ead745-b81e-42a8-9422-94aa4299d428"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклатура" id="661f79b2-b74c-4cac-8f2d-7ab489a0ef88" configVersion="789c349be0b0014083657e0b7a8633ac00000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.ТипНоменклатуры" id="4c3d898a-1c2a-41f2-afb5-fe14192aad02"/>
+		</Metadata>
+		<Metadata name="Catalog.Питомцы" id="705d7447-7425-4bb3-9db6-40666044212f" configVersion="525ee10778f20846998fb46b795335be00000000">
+			<Metadata name="Catalog.Питомцы.Attribute.ВидПитомца" id="930ecfe0-a245-4adc-a735-69662bcfaae3"/>
+			<Metadata name="Catalog.Питомцы.Attribute.Ветеринар" id="a6c27011-8123-4d69-9467-00bba02735a8"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники" id="b3ddcdb8-7dbb-4a2e-ae64-1c95379e7d60" configVersion="ab8163f0e4a79f4ba1e5a20fa7ee0d6800000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.НомерКабинета" id="b5f57e43-16c2-46a9-a34a-f10c68911ddb"/>
+		</Metadata>
+		<Metadata name="Configuration.ВетКлиника" id="d7b4ca9f-6fbf-4a96-88f9-25e240207542" configVersion="43968c8a37a12847afcb3fb9553ff6f000000000"/>
+		<Metadata name="Document.Документ1" id="f3f1feb1-8b2e-4847-aec9-a7ac119d6ec8" configVersion="a2a608719f950d4ab68937dbafb4bd4600000000"/>
+		<Metadata name="Document.Документ10" id="c48b4db1-edda-40d7-8f82-65487568ac90" configVersion="11fb465f00157649b9961155283a48ca00000000">
+			<Metadata name="Document.Документ10.Attribute.Ветеринар" id="75e779ed-610b-4eb3-b292-37849dd21efc"/>
+		</Metadata>
+		<Metadata name="Document.Документ10.Form.ФормаДокумента" id="62df4dbc-1ab9-449a-9452-a31e341696ab" configVersion="7fd407168c844248b3de4059d80f405200000000"/>
+		<Metadata name="Document.Документ10.Form.ФормаДокумента.Form" id="62df4dbc-1ab9-449a-9452-a31e341696ab.0" configVersion="db8ebdd41278b147a457ae4d2f30829c00000000"/>
+		<Metadata name="Document.Документ100" id="287597fa-c226-4b50-b399-4fbfba3500da" configVersion="c36db328858685408b69d0b407b2f7b600000000"/>
+		<Metadata name="Document.Документ101" id="9d9cd41c-2dbc-45c5-add3-ff5d725d567e" configVersion="08a09002f0b82f4f82ef320ceb36627600000000"/>
+		<Metadata name="Document.Документ102" id="e10e7440-5478-47c9-8937-9208f457d77c" configVersion="4e0bb3fee5eb794d8758a4871d8412f200000000"/>
+		<Metadata name="Document.Документ103" id="b5027494-adef-406f-99e9-8d4b4a9cc41b" configVersion="634ec9cb5ed8ad41b80cf47f9fc4c59000000000"/>
+		<Metadata name="Document.Документ104" id="f02215a7-8d4a-43d2-998b-bc748bf829eb" configVersion="0a7f8da492dc034ba00419145ed6c7c500000000"/>
+		<Metadata name="Document.Документ105" id="1de3f233-fe30-4dc6-8f9b-9e258cddd667" configVersion="903860c004b3a94aadefcf9f5c0079b600000000">
+			<Metadata name="Document.Документ105.Attribute.Ветеринар" id="1a5bfbb6-ed07-4c30-89d4-4522679b6edc"/>
+			<Metadata name="Document.Документ105.Attribute.Питомец" id="21683b2e-47a3-4dc5-a30b-deb58bfdc717"/>
+		</Metadata>
+		<Metadata name="Document.Документ105.Form.ФормаДокумента" id="b028c664-b577-4170-8533-0bb8dfaec23b" configVersion="fe9371db7170174a9dc2cfa3e54e8a9600000000"/>
+		<Metadata name="Document.Документ105.Form.ФормаДокумента.Form" id="b028c664-b577-4170-8533-0bb8dfaec23b.0" configVersion="3c00d76e36da4042b3d64d2785eb40a900000000"/>
+		<Metadata name="Document.Документ106" id="ab92108b-8b90-47ab-a11f-28b4f36d5c0b" configVersion="a76d3f5a2f45ce4a87ff273b51d0d9e700000000"/>
+		<Metadata name="Document.Документ107" id="86a877a0-3c36-4d79-ae55-c9749a925f9f" configVersion="b08422c521fec540885c89f8aee79cb200000000"/>
+		<Metadata name="Document.Документ108" id="b61e00af-e0a3-438e-b658-98cac07f9eac" configVersion="eae9e153a7552d44a08ceedd85371fa100000000"/>
+		<Metadata name="Document.Документ109" id="2cddebdb-db01-41fe-bdbc-920c75f40c46" configVersion="f24a1e01e6a9ab4b97aa7af274acfb5b00000000"/>
+		<Metadata name="Document.Документ11" id="fd3e91ea-e1de-47b0-b47c-2d7b8edb7ddc" configVersion="6a48cafa5d44694fbd3073abfa77ee7d00000000"/>
+		<Metadata name="Document.Документ110" id="60c3d5ee-c832-4460-a52f-8b1d7d11332c" configVersion="f62a442c392c9747bab89432b369d22b00000000"/>
+		<Metadata name="Document.Документ111" id="ffd833bd-aa7b-448b-abdf-b8fa4af7cfc0" configVersion="4a3f035febe6b845aff6881f4f37e55500000000"/>
+		<Metadata name="Document.Документ112" id="0ee13174-1bd9-46cd-9688-13b79486119f" configVersion="65a7528046c977408d37ad780f1f3c6500000000"/>
+		<Metadata name="Document.Документ113" id="2dc5f306-7678-4cbf-b052-be1f397b429a" configVersion="0541723cd8112c4a8960f54621401fab00000000">
+			<Metadata name="Document.Документ113.Attribute.Питомец" id="02da800b-e1f5-45ef-8556-252ddeeb6601"/>
+			<Metadata name="Document.Документ113.Attribute.Ветеринар" id="84ea9215-edea-4371-aaae-856dfc759888"/>
+		</Metadata>
+		<Metadata name="Document.Документ114" id="759e2f0d-78dd-4b4b-9bf8-3de8fee69a11" configVersion="953ae44f0c1c6a42a663aafda2029b8d00000000"/>
+		<Metadata name="Document.Документ115" id="1cb12bfb-f199-4981-ba9c-e9bd43685ed0" configVersion="d90638c9c83688448b098e737085da5700000000"/>
+		<Metadata name="Document.Документ116" id="ebe3ecc1-3159-4918-ad75-9c2e65fb61e0" configVersion="41479c1e363b0b43898999d5b92a33ce00000000"/>
+		<Metadata name="Document.Документ117" id="670a9ad8-18a0-4924-a691-4da33037dfaf" configVersion="2663cbb59bcf4747af643f4fc929a31900000000"/>
+		<Metadata name="Document.Документ118" id="4191ac2a-d9cf-42a9-8649-76a9be10829d" configVersion="b979fd4058dad743a3ac6ec65fffaa6700000000"/>
+		<Metadata name="Document.Документ119" id="cd06c658-1f79-4520-9787-17c17a75d56d" configVersion="0e082751e038bb45be965b0802f2194800000000"/>
+		<Metadata name="Document.Документ12" id="c79c374b-2c3d-4d59-aa9e-e5eeb53b40be" configVersion="27493330d57fea40bf3c833a9189bf0200000000"/>
+		<Metadata name="Document.Документ120" id="ef18899f-9514-47d1-92d5-0d6fecbacf78" configVersion="9bc2cb0b4f03d545ab3f4a53f80469fd00000000"/>
+		<Metadata name="Document.Документ121" id="5d0e7d38-dfec-4b58-9b35-78369ea909ca" configVersion="1af3132474ed924499175b3f29e05da800000000"/>
+		<Metadata name="Document.Документ122" id="09cc4dc0-fe28-4b21-af75-d8ac41842808" configVersion="9337c1a38ee2914f804d9658fa21feb400000000"/>
+		<Metadata name="Document.Документ123" id="7d928210-39ad-41c8-8dd2-887d6a0567b4" configVersion="d58a9192a89a7b4684f97ee98e3c2ec100000000"/>
+		<Metadata name="Document.Документ124" id="2fd2b026-cd30-44f7-bb37-414886648b09" configVersion="1f799b78d464ed409f47c5b08ba4b14d00000000"/>
+		<Metadata name="Document.Документ125" id="75fd6f5b-3ad2-4124-a523-8277ed46de94" configVersion="ae0c7e4f9515c2499a5d63042d4cb45400000000"/>
+		<Metadata name="Document.Документ126" id="52e054cb-3dd2-413e-830d-058a08240886" configVersion="8879f1e0ebcb914bb31467e7648849a700000000"/>
+		<Metadata name="Document.Документ127" id="93eb0ea7-3126-40e9-944a-bc83f9c86c0b" configVersion="e84e0aa82ecd944daaa2da70c3a3c59000000000"/>
+		<Metadata name="Document.Документ128" id="9700e224-d8c1-43e8-bdea-7a2d18fc2802" configVersion="512b0f77cbdcc54dab18aedbf151d5f000000000"/>
+		<Metadata name="Document.Документ129" id="fe59bf11-593b-4d95-afdb-244c4713177b" configVersion="f6a9dd485fb49048b220d7375e7d1a2600000000"/>
+		<Metadata name="Document.Документ13" id="d6373d1e-3616-4a06-888f-c206f1b54d71" configVersion="84980a276440ef4db7c692fe9d538ada00000000"/>
+		<Metadata name="Document.Документ130" id="ac1608b0-6d87-42b1-9e0a-0b5e253e7045" configVersion="059fed8b1a491640bf32d35ffd279a2800000000"/>
+		<Metadata name="Document.Документ131" id="640f7915-d6c3-4398-9156-2c38433dbe18" configVersion="b74c3e87e98bf7468bc3804d50b760ae00000000"/>
+		<Metadata name="Document.Документ132" id="fa071824-1d8b-4e2d-ae71-f8729121be25" configVersion="b2ec8185524c2e4bb85e68dce405f77300000000">
+			<Metadata name="Document.Документ132.Attribute.Питомец" id="44803054-ee81-45c2-8373-0e44aabb9430"/>
+			<Metadata name="Document.Документ132.Attribute.Ветеринар" id="566ab108-2070-4f17-a83a-7ce1604e874c"/>
+		</Metadata>
+		<Metadata name="Document.Документ132.Form.ФормаДокумента" id="56d2ded4-1cb1-4b48-8aa1-06a4e700bc94" configVersion="c057d58bfb20d246bf55c2f41fc79b4000000000"/>
+		<Metadata name="Document.Документ132.Form.ФормаДокумента.Form" id="56d2ded4-1cb1-4b48-8aa1-06a4e700bc94.0" configVersion="ddabd071d370fd42a8849857d8dad15e00000000"/>
+		<Metadata name="Document.Документ133" id="ac748748-1d88-4896-b946-0eda3145b63e" configVersion="10ba68e6ad54c145b8cfd0f8c21f1fed00000000"/>
+		<Metadata name="Document.Документ134" id="10e630c8-dcac-431d-ac7f-6420ee21dda4" configVersion="1be63d884afbf84fba79007bd540286000000000"/>
+		<Metadata name="Document.Документ135" id="6d2e52dc-e68f-413f-ab4f-e7e425617c8d" configVersion="b54e7d53b0a93d4d9578d6fcfd4151e700000000"/>
+		<Metadata name="Document.Документ136" id="96d58b26-bd2b-4b2a-8f08-ec52a3d232cb" configVersion="6f79a21dd3cbdd4c900d2789cd5fbb9600000000"/>
+		<Metadata name="Document.Документ137" id="2e4e0a68-d1ac-4103-aae3-371e51f46856" configVersion="7497ea243540c14c849ca2726e38d76c00000000"/>
+		<Metadata name="Document.Документ138" id="fc4a5400-bb10-45f6-9ac1-e90348f69901" configVersion="5a873b0ab3824540ae7c85421be8044a00000000"/>
+		<Metadata name="Document.Документ139" id="5ce80262-4b60-4a4b-b630-b8e14a1c9f5e" configVersion="0153de39a43ec5459c9ce626ef0124a400000000"/>
+		<Metadata name="Document.Документ14" id="3780d514-acd8-47f6-bbdf-7b4e2b031250" configVersion="19ffd548963fbc4ea36612551cdde06600000000"/>
+		<Metadata name="Document.Документ140" id="6e372f69-adcd-435c-99f7-e5792e7e8947" configVersion="fcff2856d00271468032939353f2f40d00000000"/>
+		<Metadata name="Document.Документ141" id="11ec7531-f845-4b42-879b-d66e0b928b92" configVersion="7e7e73696df6ee43bafd3ae4d86253a600000000"/>
+		<Metadata name="Document.Документ142" id="53bbac12-33d1-422c-9ce8-31e4989aff82" configVersion="09e00203dd2d434ebc9fe8baf216832800000000"/>
+		<Metadata name="Document.Документ143" id="1fc8a9f8-1f37-4a21-8af8-8818275d115b" configVersion="0370c6aea0e8d04187c1b2fba4dd66c400000000">
+			<Metadata name="Document.Документ143.Attribute.Питомец" id="4831f8d7-6052-4dba-902e-f609f391f8f2"/>
+			<Metadata name="Document.Документ143.Attribute.Ветеринар" id="9fd63c33-e2b1-4729-b22b-24642e66733c"/>
+		</Metadata>
+		<Metadata name="Document.Документ143.Form.ФормаДокумента" id="77a11c01-7c61-4683-8edc-9db177f5c51b" configVersion="240ad92d12526348afa205368fca001d00000000"/>
+		<Metadata name="Document.Документ143.Form.ФормаДокумента.Form" id="77a11c01-7c61-4683-8edc-9db177f5c51b.0" configVersion="c1a30c8e8f02ec44bd744b71d163dff400000000"/>
+		<Metadata name="Document.Документ144" id="5febd308-d3e5-4b5f-8a96-646a5fd73eee" configVersion="80621e2419e8d14fa931704985215f0800000000"/>
+		<Metadata name="Document.Документ145" id="d5487a18-c703-4c8e-9e4a-a7560153ad40" configVersion="33e5dfb09aef5e4bb4421861ee1aca2700000000"/>
+		<Metadata name="Document.Документ146" id="9e5bf3f6-f164-4129-a213-3f28be3c6b93" configVersion="7cbf85b73959a34d81701882adb6411600000000"/>
+		<Metadata name="Document.Документ147" id="a0d078e1-8ebf-4ee2-9976-b9cd3164b560" configVersion="3a6af7f8394c84429e799ba0df88fccf00000000"/>
+		<Metadata name="Document.Документ148" id="528617bf-435a-4419-a3e3-b7809593388b" configVersion="817ea04dff7f834e9d8c51340b2f8bfa00000000"/>
+		<Metadata name="Document.Документ149" id="fb8860c1-a7f0-438a-8d25-1dcbb80f98f4" configVersion="62b0445e7c6e36429acde0573810b6e400000000"/>
+		<Metadata name="Document.Документ15" id="32275bb9-e439-4b75-aed4-1a12d55795df" configVersion="f0a24d9027edcf44b1501f758fee189300000000"/>
+		<Metadata name="Document.Документ150" id="5cda8bb5-831a-4d2c-a79e-071627cb4d47" configVersion="b7430e29b736ec41969783a71cc39f7400000000"/>
+		<Metadata name="Document.Документ151" id="9e1654b0-eb43-48d0-9a2d-12e1981ec0a6" configVersion="543f718e7d03054aa1157be18cb5640500000000"/>
+		<Metadata name="Document.Документ152" id="e300e97f-e7b4-45f0-84d7-1024ca23e877" configVersion="b71d5b09f5ef1a41b319dfa035bddcba00000000"/>
+		<Metadata name="Document.Документ153" id="1898077d-8564-43eb-8647-e3bade4d8f26" configVersion="7d1c0f902d34cc47a2f55db5dc17a9a100000000"/>
+		<Metadata name="Document.Документ154" id="d03ce3bc-3d86-474b-b982-62ac4fd109f6" configVersion="97fec597a019a04bb3e310f24d2fea4000000000"/>
+		<Metadata name="Document.Документ155" id="6e6de189-0d39-4485-900c-90c2654aa8e0" configVersion="ec2da45c990c684abd72a166a85e13c700000000"/>
+		<Metadata name="Document.Документ156" id="f62972fa-3e68-4fdb-85ad-339ab85719f4" configVersion="473a66e047203d499e94ca352b02f1a200000000"/>
+		<Metadata name="Document.Документ157" id="84aee472-cc3b-4a23-ada8-f594da512964" configVersion="fa8defb2c7865c43862e28e79665cb5b00000000">
+			<Metadata name="Document.Документ157.Attribute.Ветеринар" id="319bb96c-1f1c-468d-99e6-d0c68526dc65"/>
+			<Metadata name="Document.Документ157.Attribute.Питомец" id="645db1df-61ca-43cd-be73-a1230be6f8d0"/>
+		</Metadata>
+		<Metadata name="Document.Документ157.Form.ФормаДокумента" id="a8fd6a98-5125-41b6-be23-9d790aeb936b" configVersion="0c954b605792c040a6572526a553fcdc00000000"/>
+		<Metadata name="Document.Документ157.Form.ФормаДокумента.Form" id="a8fd6a98-5125-41b6-be23-9d790aeb936b.0" configVersion="7344683fbce3f34cb7697b02474a9e2a00000000"/>
+		<Metadata name="Document.Документ158" id="5ba077a3-334d-4340-a69c-ace9f35e3875" configVersion="2b749e864fbd084aa389590d9c0540cf00000000"/>
+		<Metadata name="Document.Документ159" id="a8b3a210-7337-4576-8007-e68840be76d7" configVersion="006d3daefdec514b89c46c837cd3f7c800000000"/>
+		<Metadata name="Document.Документ16" id="be709af5-540f-4a28-83ea-69fdf3832894" configVersion="fc49afee49a84244a69feb4e5a5744ae00000000"/>
+		<Metadata name="Document.Документ160" id="6e28fe98-af73-4846-b08e-3bdbdce03f10" configVersion="0aa255b05ebb2c4587e37d488fc5a64600000000"/>
+		<Metadata name="Document.Документ161" id="203a79d2-aa47-4a2b-b18a-79e50b56095b" configVersion="de89ad520da8a84a80baf7fdddc75cb600000000"/>
+		<Metadata name="Document.Документ162" id="88937383-e175-4037-bd9d-30b518884eb1" configVersion="1ded27c6b6c32144baad614e8644af0f00000000"/>
+		<Metadata name="Document.Документ163" id="7cdd9f6a-cd5e-421f-aa28-5cd622ef1a59" configVersion="b1ab9a79019ec54b90e3f80b656ce46900000000"/>
+		<Metadata name="Document.Документ164" id="1f8e4eb7-d398-41e4-bb8e-bcf10024602f" configVersion="c453de5ad5b38a469976872c8e92ee3f00000000"/>
+		<Metadata name="Document.Документ164.Form.ФормаДокумента" id="c3b13b84-86ae-4e87-95e6-a79e644bfb91" configVersion="f408df3a88194f4280213f95673f274f00000000"/>
+		<Metadata name="Document.Документ164.Form.ФормаДокумента.Form" id="c3b13b84-86ae-4e87-95e6-a79e644bfb91.0" configVersion="47a1fe3411550c4aa4603c2a44213c9b00000000"/>
+		<Metadata name="Document.Документ165" id="03e8987f-c47e-4633-86d7-71451d6614a0" configVersion="e6c3f979cb60c04db6eb24fdb406d29d00000000"/>
+		<Metadata name="Document.Документ166" id="17704b1e-7b91-4738-b0cb-020aa07becea" configVersion="6031127faedadb42bf8dbc6902369d8000000000"/>
+		<Metadata name="Document.Документ167" id="b78e3513-bd4e-45ce-b71b-d6b7fab8993a" configVersion="5b2c890fa6a2d94fa60af412db33ad9100000000"/>
+		<Metadata name="Document.Документ168" id="ba82b615-1ea9-44e5-b3bb-df028add32b7" configVersion="6a0ed741915fce428a277fe845cf01bf00000000"/>
+		<Metadata name="Document.Документ169" id="11926a4c-c654-4d21-a184-6bf5d0a24103" configVersion="4a62bf8c62996f4e96435913ebceb0a800000000"/>
+		<Metadata name="Document.Документ17" id="3d4ab937-0cf6-4aeb-9527-62c9482df410" configVersion="7d8a1b57982cbb4bacbd48159dd3656e00000000"/>
+		<Metadata name="Document.Документ170" id="fac4917c-1a2c-4d27-abac-85b202cc8244" configVersion="23848c8793245a498e1234606299dda000000000"/>
+		<Metadata name="Document.Документ171" id="16935ec0-0240-4c4b-87d7-0d2c6e246769" configVersion="5b3ed94d9242ba4fb49c4d1b046d5a7800000000">
+			<Metadata name="Document.Документ171.Attribute.Питомец" id="19a90f8c-194b-440c-980b-ae0d40c78b6f"/>
+			<Metadata name="Document.Документ171.Attribute.Ветеринар" id="6f4caa04-f064-4303-ba4e-bef076953025"/>
+		</Metadata>
+		<Metadata name="Document.Документ171.Form.ФормаДокумента" id="0d0a0965-4820-4b82-8580-ef062e70f25e" configVersion="f3859642d05b6740b8368b2f4e58892a00000000"/>
+		<Metadata name="Document.Документ171.Form.ФормаДокумента.Form" id="0d0a0965-4820-4b82-8580-ef062e70f25e.0" configVersion="9f236f86729566499bfeec77ae98379c00000000"/>
+		<Metadata name="Document.Документ172" id="3da52908-caf8-404c-a35c-f69d8835637c" configVersion="fe7fcf5ea865064e970ea70af3ff104700000000"/>
+		<Metadata name="Document.Документ173" id="33180fcc-d447-4c42-8115-2b4b26d831c9" configVersion="81e30a160e3fa84082aa92b92b5e798c00000000"/>
+		<Metadata name="Document.Документ174" id="714ee06b-f987-426f-aa49-0c68e9e130dc" configVersion="46a8e0b28cbc634991e479d5f175345f00000000">
+			<Metadata name="Document.Документ174.Attribute.Ветеринар" id="268779a0-1947-463f-9829-f23fbe537592"/>
+			<Metadata name="Document.Документ174.Attribute.Питомец" id="2e51bc8f-655f-4b76-92c7-98c4b70f7d84"/>
+		</Metadata>
+		<Metadata name="Document.Документ175" id="13084925-bd7e-4f92-b705-339e744e4109" configVersion="a19e42d81fe86647bf7ee0c7136e844400000000"/>
+		<Metadata name="Document.Документ176" id="35088525-8989-4198-8da2-d1d4e32ca747" configVersion="9d712a9b96300c4db680bea1c2eafd9e00000000"/>
+		<Metadata name="Document.Документ177" id="a04a35ed-a6bf-4931-83ec-4c5ff38a173b" configVersion="ca0e6675f177aa41b61880e93a3dbd7700000000"/>
+		<Metadata name="Document.Документ178" id="f5f70db6-8750-4214-b102-ad5f3df9cd4f" configVersion="b7ee515afba2924d91d1d26d0302cf5400000000">
+			<Metadata name="Document.Документ178.Attribute.Питомец" id="26b7c9fd-81d5-427f-b275-b6b45337777c"/>
+			<Metadata name="Document.Документ178.Attribute.Ветеринар" id="678f060c-e5b0-4274-bbdb-57af94575ec8"/>
+		</Metadata>
+		<Metadata name="Document.Документ178.Form.ФормаДокумента" id="32293a6a-3646-4947-b453-3b809614d6a8" configVersion="29799a99c0a58e4aa3451c13cddfdb5b00000000"/>
+		<Metadata name="Document.Документ178.Form.ФормаДокумента.Form" id="32293a6a-3646-4947-b453-3b809614d6a8.0" configVersion="89c3d110c9f4754495a5bc332e957d0a00000000"/>
+		<Metadata name="Document.Документ179" id="ee804bf1-894f-4cee-b022-1815ef9269f4" configVersion="eada658880f2af439d9676fb9e4b1e6300000000"/>
+		<Metadata name="Document.Документ18" id="57877927-a628-4fd8-b6fd-3ef5d069d656" configVersion="f12753b6caa04549a168bf1713f0e33b00000000"/>
+		<Metadata name="Document.Документ180" id="53c8f82b-4ebe-490b-9ced-91c4766367fc" configVersion="0352458f0f3ceb449fa8ee610393feb400000000"/>
+		<Metadata name="Document.Документ181" id="c959fa04-78de-4ddf-a580-ea415bd5e36e" configVersion="43e1b16188ca2847a25b7c2fccb8b7c300000000"/>
+		<Metadata name="Document.Документ182" id="5471c8ea-e951-46f0-90bc-2e64988f4fc2" configVersion="8f49131b76d0a347abefb178f0ba491500000000"/>
+		<Metadata name="Document.Документ183" id="81806643-2bf7-4fbd-8f9f-5e44fb7751ce" configVersion="6a6f6539eaaf564bab781392c5533a5500000000"/>
+		<Metadata name="Document.Документ184" id="b014afd4-f854-4fb1-a6e1-5294bb817325" configVersion="c0b41fc1b7885a46834564fb43e3479800000000">
+			<Metadata name="Document.Документ184.Attribute.Питомец" id="0ba8cdcc-1bc3-43f6-a5ce-0dfce56a9e06"/>
+			<Metadata name="Document.Документ184.Attribute.Ветеринар" id="b1a742ee-8618-4b2e-ad0f-17224d1c415d"/>
+		</Metadata>
+		<Metadata name="Document.Документ184.Form.ФормаДокумента" id="a91dcfa2-4bfb-4814-adf9-1d896490f9a4" configVersion="03784316655abe42905672ea5097971200000000"/>
+		<Metadata name="Document.Документ184.Form.ФормаДокумента.Form" id="a91dcfa2-4bfb-4814-adf9-1d896490f9a4.0" configVersion="5d4af4dc5925674eb6a5d32ea18fb47f00000000"/>
+		<Metadata name="Document.Документ185" id="93506089-3940-442d-920c-6419b1b81628" configVersion="d29804d155636d40bdfec5b8a74e3f8000000000"/>
+		<Metadata name="Document.Документ186" id="9266c0f3-bbbf-4d82-bf85-d8644a90f897" configVersion="26dad54f7b435d4aad77519e7efd629d00000000"/>
+		<Metadata name="Document.Документ187" id="72894164-a902-4c00-b40e-5559b0f3b379" configVersion="837ce4a04b28ee42ac0c7be0cc4520d900000000"/>
+		<Metadata name="Document.Документ188" id="84375aa3-ef8c-4218-a94f-361a46e12388" configVersion="5194ab6b13402c46894fac84a25703a400000000"/>
+		<Metadata name="Document.Документ189" id="711fb155-bc40-4900-9ed6-dac23b747c54" configVersion="d6d4e2418d05e646963422548db165c400000000"/>
+		<Metadata name="Document.Документ19" id="e8c94ffd-30f1-47a8-8a83-e682db2d9711" configVersion="87d15d76a6f36e4f9f1800a89c97905900000000"/>
+		<Metadata name="Document.Документ190" id="f2df31c0-1039-42fd-a31e-397da2279503" configVersion="f489b092d53b8c45a4af43a25d4224f800000000">
+			<Metadata name="Document.Документ190.Attribute.Питомец" id="4bd5bedd-422b-4646-83b5-5a64e60fa5aa"/>
+			<Metadata name="Document.Документ190.Attribute.Ветеринар" id="c0646c12-f18c-4a4c-842b-0cb36b20802c"/>
+		</Metadata>
+		<Metadata name="Document.Документ190.Form.ФормаДокумента" id="7231c78e-d958-4d1b-aad4-7b2c0b677b29" configVersion="30884281be2a604aa8df286ade1a125b00000000"/>
+		<Metadata name="Document.Документ190.Form.ФормаДокумента.Form" id="7231c78e-d958-4d1b-aad4-7b2c0b677b29.0" configVersion="b29117d802ba4c46961d20c7b2b6d14700000000"/>
+		<Metadata name="Document.Документ191" id="0fdae6d7-b906-488a-94c7-6e9d3e738bab" configVersion="0a2676ac3daf6740b13115d2e1a6547800000000"/>
+		<Metadata name="Document.Документ192" id="8718322f-157d-4847-82fe-3c5f7b131750" configVersion="969c56c94a7bed43b263d9279cc4013900000000">
+			<Metadata name="Document.Документ192.Attribute.Ветеринар" id="08b60d3c-875a-4619-bf09-563a67686453"/>
+			<Metadata name="Document.Документ192.Attribute.Питомец" id="401b9fb3-9d93-4fc8-8e62-ecef90249760"/>
+		</Metadata>
+		<Metadata name="Document.Документ192.Form.ФормаДокумента" id="01a54038-49f5-4b65-af9f-ddda64f2fbfa" configVersion="47505883a583394487bf5a56ca572ea400000000"/>
+		<Metadata name="Document.Документ192.Form.ФормаДокумента.Form" id="01a54038-49f5-4b65-af9f-ddda64f2fbfa.0" configVersion="0a741fb4f93b814d8624c83f0e8c802500000000"/>
+		<Metadata name="Document.Документ193" id="2ae5f036-48c0-42fe-9b7c-3e7f749d8dbe" configVersion="9100ac489fb3f244803fb3e215e17f7f00000000"/>
+		<Metadata name="Document.Документ194" id="8bf41654-e8f8-4fd7-ae3a-0bab717c0ed5" configVersion="2686fc55794bba4888d3c78fd659bd3f00000000"/>
+		<Metadata name="Document.Документ195" id="4a265101-7e68-45e8-a436-bfefdaf9998f" configVersion="53edba5d3cfb7e4497f337d070272b0200000000"/>
+		<Metadata name="Document.Документ196" id="b35f9546-6ce7-492f-8775-b11d86bdf010" configVersion="f74383cda2a0d74f9c2d8210e8954a2400000000"/>
+		<Metadata name="Document.Документ197" id="473b2d05-3200-4470-a660-a879c320b1dd" configVersion="929327617ca7774281d5103d013fb65100000000"/>
+		<Metadata name="Document.Документ198" id="db5627cb-f771-44a3-a062-0b855b7ee487" configVersion="dbbb5f0007074d488e2b7ee7061a32dc00000000"/>
+		<Metadata name="Document.Документ199" id="64bcaead-0193-460b-83b4-d1fbb1c46812" configVersion="cc9951cbebb3104d89359eca1e04a9ee00000000">
+			<Metadata name="Document.Документ199.Attribute.Ветеринар" id="80278635-7716-4573-8d1c-a9c6d8bcd945"/>
+			<Metadata name="Document.Документ199.Attribute.Питомец" id="c3441cab-69a6-459d-90a0-ad84bbec39da"/>
+		</Metadata>
+		<Metadata name="Document.Документ199.Form.ФормаДокумента" id="2574a9f1-b11f-44ec-b14c-be563e57662c" configVersion="03938f2266ec8a489261ef5b56f3b51300000000"/>
+		<Metadata name="Document.Документ199.Form.ФормаДокумента.Form" id="2574a9f1-b11f-44ec-b14c-be563e57662c.0" configVersion="cc546357a318de4d9422dd7497a02b8000000000"/>
+		<Metadata name="Document.Документ2" id="9f870349-c105-46c0-9048-1b1d38b4ca16" configVersion="5a006181b5bbcc4aa85cd0ad4a61736400000000"/>
+		<Metadata name="Document.Документ20" id="02b28ed9-e7c9-4907-a30e-7c46ab0b9dd4" configVersion="02bde2153fe348459c3093b19f3dbe7000000000"/>
+		<Metadata name="Document.Документ200" id="f4edfbfb-c5b0-4429-b766-99220927d147" configVersion="8916beff939aeb4f97bbad572bf0422200000000"/>
+		<Metadata name="Document.Документ201" id="f634d401-00a4-475c-973e-a04a1ee87c1f" configVersion="9a01c0a064baa245bd139dae40479aed00000000"/>
+		<Metadata name="Document.Документ202" id="d81350b7-5ce2-4022-8e85-06542889ea73" configVersion="4d7dd6485f3a80468e22e44dc86d9add00000000"/>
+		<Metadata name="Document.Документ203" id="e06c822a-31c2-4bd3-830a-25781d50905b" configVersion="03d9547c27cc504b96f0a56bc93c504000000000"/>
+		<Metadata name="Document.Документ204" id="5e8bf3ec-f508-452d-95a4-d760840a75f9" configVersion="25391b6a3814f34a9097b9d708e71fda00000000"/>
+		<Metadata name="Document.Документ205" id="badb33af-e20f-417c-8eba-802a429c8b8d" configVersion="a49e64c41107c74e8bd71767f1959a6e00000000"/>
+		<Metadata name="Document.Документ206" id="25b0aaa8-e8f5-4aad-9c62-bf3ff05ef421" configVersion="9b0fe92bb189be459206b4f0ac88fa8e00000000"/>
+		<Metadata name="Document.Документ207" id="238d4685-2ac9-499b-b85f-304e1f7a4873" configVersion="bcf554300de7c64c95b86036cc6e9f9c00000000"/>
+		<Metadata name="Document.Документ208" id="4cffb977-a858-425e-8ebf-1239e58359f2" configVersion="c4a505591ef8c54d93315bfe3950d5f100000000"/>
+		<Metadata name="Document.Документ209" id="cd8033f6-e9cb-4ad6-8635-281295e94d5e" configVersion="14b28b32d14341489c9eed1b697471ed00000000"/>
+		<Metadata name="Document.Документ21" id="b4cd8e4d-6407-4f3f-86f5-185813c46766" configVersion="623d7b2cd2a54f4fb265c242b5fdda9500000000"/>
+		<Metadata name="Document.Документ210" id="34215f1d-b149-420e-bb2f-af0df99a6e1b" configVersion="dab3a703147f764cb1489afb6698dd3000000000"/>
+		<Metadata name="Document.Документ211" id="4a754603-7d2a-4fc9-bcbf-6db7b69c302d" configVersion="eaa3d8a5ddc38d448e1dd2329e7c179b00000000"/>
+		<Metadata name="Document.Документ212" id="9d8fed44-3c75-4457-b8d3-7a2d62675498" configVersion="cb59ff0693c8a34a9beb8497a56fcbb000000000"/>
+		<Metadata name="Document.Документ213" id="52d127bd-cda2-42c2-8863-836dc926e1d9" configVersion="543f074ff149bf4993e7e825c3b48ef500000000"/>
+		<Metadata name="Document.Документ214" id="738872a6-cd60-4ebb-96a5-0f7d4671fb7c" configVersion="857be57faf1c8544a4a64adc4bca862e00000000"/>
+		<Metadata name="Document.Документ215" id="056bbf3d-210f-48d0-9519-f5167af55f70" configVersion="faa0666f11fa2a409de67b4170d2629400000000"/>
+		<Metadata name="Document.Документ216" id="71540ad5-5d20-43a5-9a1e-1462ac1dc8ca" configVersion="e87c6425c1d4e345820d2a2341f2453400000000"/>
+		<Metadata name="Document.Документ217" id="60720de7-6544-4fd6-ba88-e943aeb867a3" configVersion="b8b6c4a80d61cd4ba723c1bec00dcbc000000000"/>
+		<Metadata name="Document.Документ218" id="dca94a18-0528-4ea2-80fb-be71086b1e5b" configVersion="e582d3a381e4db4a9ba130e0e8313d1c00000000"/>
+		<Metadata name="Document.Документ219" id="16afec1b-cfc6-4403-afda-202c0b87778f" configVersion="b6e26bc07354d847941f30cd56bcf38400000000"/>
+		<Metadata name="Document.Документ22" id="834519c6-0e6d-4e2c-9462-323e4eea5e21" configVersion="aaa84d81387f5d4f9822d671c852aba500000000"/>
+		<Metadata name="Document.Документ220" id="3a691f49-b6d1-4927-affa-ad2534708517" configVersion="5ecc4d32704b264e9e79dc95c9949d6600000000"/>
+		<Metadata name="Document.Документ221" id="3d9f9ef1-6d7b-4c05-91a5-74e5922fe00e" configVersion="7a1a99fae958834eb8429b617736ee8a00000000"/>
+		<Metadata name="Document.Документ222" id="e4993bbe-cb9a-4aa8-9325-82389bc0bcb6" configVersion="7d21afc71833c647be76a7efbfed10d900000000">
+			<Metadata name="Document.Документ222.Attribute.Ветеринар" id="4f65729a-0f16-421a-8ef2-600c408fcecf"/>
+			<Metadata name="Document.Документ222.Attribute.Питомец" id="af2d1d51-8980-46fb-9acc-1453824868c6"/>
+		</Metadata>
+		<Metadata name="Document.Документ222.Form.ФормаДокумента" id="293839ae-41af-4a64-a99c-b391df89bc8c" configVersion="f47d2ec82f25c441be7a4a900fdb7d4700000000"/>
+		<Metadata name="Document.Документ222.Form.ФормаДокумента.Form" id="293839ae-41af-4a64-a99c-b391df89bc8c.0" configVersion="9c490f549722b54492813777d9d8352e00000000"/>
+		<Metadata name="Document.Документ223" id="33fe40a9-3682-4929-b18f-462edfffd712" configVersion="49bc4481376cf64b823f0c47007cf1de00000000"/>
+		<Metadata name="Document.Документ224" id="a0e68dc5-818f-4c4d-af23-b9cd0117f165" configVersion="450f972e0ce34049a7f757adbc6144ad00000000"/>
+		<Metadata name="Document.Документ225" id="e103e575-4c2e-46b3-a2a9-4a7da5bae686" configVersion="e0655c4258855548a4a0a3774b53e70500000000"/>
+		<Metadata name="Document.Документ226" id="31720702-4a1d-4a62-b1b8-7c63939d24c1" configVersion="89aab0a545807f4ca1b415733578499f00000000"/>
+		<Metadata name="Document.Документ227" id="20c40302-929d-4c8f-a102-4870d281f96d" configVersion="185ac970b3e3ab458bd8efaa1dfb28b000000000"/>
+		<Metadata name="Document.Документ228" id="a32e56c6-a886-4f88-9aa4-673524996623" configVersion="1dd4792e791021498c94cd50ae3fff1100000000"/>
+		<Metadata name="Document.Документ229" id="e886e5d4-99fa-4a3b-9c3d-8a192fc03079" configVersion="7341bf55b9428b4f91f231c3a392e20b00000000"/>
+		<Metadata name="Document.Документ23" id="cdf07a98-d1e0-48dd-8565-47c6eab5e1c1" configVersion="c7bafd14df25ff4a82ba48457489effb00000000"/>
+		<Metadata name="Document.Документ230" id="3be24756-3e57-4a6a-b9f8-f040c6ec3841" configVersion="f36861aca25949458e4aeacf8a1abf3600000000"/>
+		<Metadata name="Document.Документ231" id="d6578b58-0d25-44aa-a8b5-969f53c3280b" configVersion="a4fd9757ebdfa546986b00eeb945749f00000000"/>
+		<Metadata name="Document.Документ232" id="d6879270-3683-4348-a139-c692d5f54f39" configVersion="d98e3e6ed995fb4b8bd67b75008e6af300000000">
+			<Metadata name="Document.Документ232.Attribute.Ветеринар" id="048afd83-f4fa-4288-bf46-c25c86cc3946"/>
+			<Metadata name="Document.Документ232.Attribute.Питомец" id="4a563210-a7cc-4fe1-bd1f-b1d493f62592"/>
+		</Metadata>
+		<Metadata name="Document.Документ232.Form.ФормаДокумента" id="ae23da6b-1bee-4f45-9bf2-56500f325694" configVersion="8cef48ff85e70c4185c72aec877ef2c600000000"/>
+		<Metadata name="Document.Документ232.Form.ФормаДокумента.Form" id="ae23da6b-1bee-4f45-9bf2-56500f325694.0" configVersion="7f4c284e68c6e64b8059683fb45cd8ea00000000"/>
+		<Metadata name="Document.Документ233" id="a5c01d2d-879e-4635-97e5-13d73be1a9e6" configVersion="918cb483300ee84da5296690283992f300000000"/>
+		<Metadata name="Document.Документ234" id="db1fc2c8-a195-490b-b360-bf9232e7bd13" configVersion="fd475eb1612f674cbf5c8659a2019ce900000000"/>
+		<Metadata name="Document.Документ235" id="35a4a14f-d2fe-4b82-b004-9029fd6dd2d2" configVersion="740ee1b9f140724e92c1e794003dbba200000000"/>
+		<Metadata name="Document.Документ236" id="cd1807eb-b389-4a5c-a847-3af417829ae2" configVersion="f93d4e08b1aeb1489e0ea308d2528dd500000000"/>
+		<Metadata name="Document.Документ237" id="a3227cff-7f9a-4628-a25f-3634c08eb3e3" configVersion="b5684350b99c68458f65ff194a9e5cd400000000"/>
+		<Metadata name="Document.Документ238" id="5c914507-f048-439b-a0be-dc39c61e91d1" configVersion="f68b77dcdc1ce64e9e923678ea7345c900000000"/>
+		<Metadata name="Document.Документ239" id="2b9a5fed-9f59-4095-a8b8-4ce235549e23" configVersion="9639879d5ca75646b242ca5c2ae4484d00000000"/>
+		<Metadata name="Document.Документ24" id="0de5ddcf-e7d9-48b7-84fd-5d2d6993c54c" configVersion="d1763ca6d7fbea4385d0240ae374741600000000"/>
+		<Metadata name="Document.Документ240" id="19007cfb-a4ac-4693-b0ee-ba74c5f833d1" configVersion="1f20dfae7ab7424fbe10d3e23b22bd2e00000000"/>
+		<Metadata name="Document.Документ241" id="a5e6281d-ef92-4420-a2a0-84da08c83d21" configVersion="e0c0640422026f40bed4a6eccef4a09700000000">
+			<Metadata name="Document.Документ241.Attribute.Ветеринар" id="4bea2436-f97e-4841-ad3d-0d37613bf700"/>
+			<Metadata name="Document.Документ241.Attribute.Питомец" id="8a153a7a-73d5-4f86-910a-ee648af2e33d"/>
+		</Metadata>
+		<Metadata name="Document.Документ241.Form.ФормаДокумента" id="ce2fe9f6-91f8-4cfe-adac-579ea8cad42c" configVersion="a41965a7f848144a8c3eadc8560f559b00000000"/>
+		<Metadata name="Document.Документ241.Form.ФормаДокумента.Form" id="ce2fe9f6-91f8-4cfe-adac-579ea8cad42c.0" configVersion="381f309fc0e9db4bb676a9b684b014cf00000000"/>
+		<Metadata name="Document.Документ242" id="0dc7b6f6-b5be-4730-81e8-4bee3d6d85df" configVersion="1d7e0db6fffd1b4baa21d6cbfc01d59a00000000"/>
+		<Metadata name="Document.Документ243" id="9aedc4b9-abb9-4e2c-9cc7-9ea56fa67733" configVersion="aa3ffe0b2258a541a7980bb5540d9bc800000000"/>
+		<Metadata name="Document.Документ244" id="f6360a2b-7851-481a-99b5-4eb2656920c3" configVersion="709121b099b0ca4db0b218242d1cb7c500000000"/>
+		<Metadata name="Document.Документ245" id="b4f256cb-e398-4267-a9aa-6fdc65134a82" configVersion="51a3ff623dd4b14781aae3708fc0393400000000"/>
+		<Metadata name="Document.Документ246" id="d9ce7d25-7e4a-4ec9-b806-9f20a2bbff54" configVersion="771d8c431c6b884095aedf979dac5fc600000000"/>
+		<Metadata name="Document.Документ247" id="29a01742-1ecc-434b-9ae1-91b6cc0105bf" configVersion="84189e9df37dc84783259dfdc4be398100000000"/>
+		<Metadata name="Document.Документ248" id="1ed4d98e-e32c-4af1-8bdf-a02541350534" configVersion="46de1fe9bc35854f84a5200b97ec060d00000000"/>
+		<Metadata name="Document.Документ249" id="be70a5cc-890f-443f-99c8-d0c87c15f005" configVersion="186b29e10280eb42a0681e19a79524f600000000"/>
+		<Metadata name="Document.Документ25" id="8a101c16-4a95-45ba-a570-a8d645cfa5f1" configVersion="797e66673487c846ab3774abdae76fa000000000"/>
+		<Metadata name="Document.Документ250" id="01cb3a01-03c2-46ae-9d95-756b4cbafbd9" configVersion="df312e1966a2f3449abb2178ce25833200000000">
+			<Metadata name="Document.Документ250.Attribute.Ветеринар" id="2157cbf9-1e06-4447-a732-aa1fc77df18a"/>
+			<Metadata name="Document.Документ250.Attribute.Питомец" id="bc7ec020-9e39-4784-a8db-9b51c7e62b9a"/>
+		</Metadata>
+		<Metadata name="Document.Документ250.Form.ФормаДокумента" id="6fdfab1c-c49a-4eb0-b88e-49ec8a62ff75" configVersion="e52ae045ccf001449e337b26f61ff29e00000000"/>
+		<Metadata name="Document.Документ250.Form.ФормаДокумента.Form" id="6fdfab1c-c49a-4eb0-b88e-49ec8a62ff75.0" configVersion="49036a6ab70d494eb4993c1d11f6320c00000000"/>
+		<Metadata name="Document.Документ251" id="3b06db24-b312-4da2-aca4-46c3dbaf2bd6" configVersion="3a7ca0e419995047b78aa89f34cf3d2f00000000"/>
+		<Metadata name="Document.Документ252" id="825c62dc-9b0f-42b4-9056-eedc8bacd736" configVersion="5995590a1087344d9940dd8b8af5823e00000000"/>
+		<Metadata name="Document.Документ253" id="2d13452f-d49b-4ab7-bec9-0918f84fa229" configVersion="d456111785695f429abdf1799d56d2c200000000">
+			<Metadata name="Document.Документ253.Attribute.Питомец" id="c963743d-6bf2-46b4-a5f0-05c2aa2af8cb"/>
+			<Metadata name="Document.Документ253.Attribute.Ветеринар" id="f9ce4ccb-ef34-44ea-a098-188361145644"/>
+		</Metadata>
+		<Metadata name="Document.Документ253.Form.ФормаДокумента" id="e3794d33-3ec0-4cee-9b9d-632f3d1b46dd" configVersion="340c018d018c5d45bac89be69850024b00000000"/>
+		<Metadata name="Document.Документ253.Form.ФормаДокумента.Form" id="e3794d33-3ec0-4cee-9b9d-632f3d1b46dd.0" configVersion="0a88bd456b93ca41ab5bc7ddd21ab16b00000000"/>
+		<Metadata name="Document.Документ254" id="82726b5c-b8bc-4bde-8677-1b4b176bdea4" configVersion="60f98e4014421f43bd6c6b213140fa6500000000"/>
+		<Metadata name="Document.Документ255" id="da0d8328-632a-48bd-bdbb-e1abdc14b7b1" configVersion="c3ac19417a5b63439c93f70a1df68ebe00000000"/>
+		<Metadata name="Document.Документ256" id="886723be-6b31-4e17-b63f-1b9abc69090e" configVersion="d2108c4538dcde4cbc4df75ab921751100000000">
+			<Metadata name="Document.Документ256.Attribute.Ветеринар" id="0fbeb7b9-2ce8-4e26-b208-72697bc37ff4"/>
+			<Metadata name="Document.Документ256.Attribute.Питомец" id="db2930cb-a241-4af9-bda2-3491af0a8092"/>
+		</Metadata>
+		<Metadata name="Document.Документ256.Form.ФормаДокумента" id="3af65b2b-e9e8-4993-b08d-944c351b04f7" configVersion="33f5ad04e4a5fc4884f852f2dd0b9b7600000000"/>
+		<Metadata name="Document.Документ256.Form.ФормаДокумента.Form" id="3af65b2b-e9e8-4993-b08d-944c351b04f7.0" configVersion="8e9cf3b1a83bfb499d1d18a545cdce9900000000"/>
+		<Metadata name="Document.Документ257" id="9f620856-e040-4e53-a7d7-afb7a6da5f2f" configVersion="e9ecc1e3e9f0a0439b50161a7e7c558600000000"/>
+		<Metadata name="Document.Документ258" id="c0ebe20a-3f64-4530-a95c-5ddc3fc9245e" configVersion="700499813bb50141a3ba7680a3e614b300000000"/>
+		<Metadata name="Document.Документ259" id="aec6896b-26b3-474e-81fb-c9bd456cbb19" configVersion="c9791e3d3ae59849af605c69647df0a700000000"/>
+		<Metadata name="Document.Документ26" id="eca60bce-747f-4b31-909d-4ff5a210a9bf" configVersion="0a06dcac55770147a4ad09f67b0f501900000000"/>
+		<Metadata name="Document.Документ260" id="a30d9230-b0bf-428a-807c-9bd663631094" configVersion="faf8146eab00b9479044a050a386884d00000000"/>
+		<Metadata name="Document.Документ261" id="97361edb-9af6-47bd-aaed-f2fb1cbe1e21" configVersion="1984f7f60d025c4e8e80b29865d3559200000000"/>
+		<Metadata name="Document.Документ262" id="9e228728-9bbf-43c3-9ebe-8e2dc8ef30ab" configVersion="013ed0167f001f4ca53a67370243382800000000"/>
+		<Metadata name="Document.Документ263" id="e1be3018-9d19-4096-8853-66e527055f93" configVersion="c18ec06b6ec4d9459022cb11b54d903d00000000"/>
+		<Metadata name="Document.Документ264" id="5950767c-245e-462c-915b-dbde00c0da38" configVersion="a4473ce16a4c45489d15358fe603376600000000"/>
+		<Metadata name="Document.Документ265" id="0dcb0931-ce12-4a2e-8b9a-a8de31ad5499" configVersion="1eeb95b80e000446a9eaf987cfa1768c00000000"/>
+		<Metadata name="Document.Документ266" id="daad8444-c4d9-4e13-9645-a1d8b9e6443f" configVersion="a73b4c0c2f35cd4e9e8ab7486fadc5d100000000"/>
+		<Metadata name="Document.Документ267" id="6b838553-0176-49c5-b49f-857f2eb14dad" configVersion="c73460e35e59af428c192c75c881837900000000">
+			<Metadata name="Document.Документ267.Attribute.Питомец" id="c20accf6-cbb4-4868-a2ae-8c2b52f27c10"/>
+			<Metadata name="Document.Документ267.Attribute.Ветеринар" id="d3df4d81-f445-4b1d-82fe-862f740c9464"/>
+		</Metadata>
+		<Metadata name="Document.Документ267.Form.ФормаДокумента" id="45668361-3569-428a-94c6-b5806e9e41fb" configVersion="a7bd26c54bce464e878092a9d72924e800000000"/>
+		<Metadata name="Document.Документ267.Form.ФормаДокумента.Form" id="45668361-3569-428a-94c6-b5806e9e41fb.0" configVersion="a236b9841e726642a933fef29ff79bc200000000"/>
+		<Metadata name="Document.Документ268" id="22c7436e-f18c-45ba-b4ff-087b5bd6ea5d" configVersion="c33ea3fe4113094894dc51488ff210de00000000"/>
+		<Metadata name="Document.Документ269" id="fe9199aa-3fa3-4030-9d44-4e2390289c0c" configVersion="7a5992af964bfd4a8c0480b99a0fcbec00000000"/>
+		<Metadata name="Document.Документ27" id="452ef111-7211-48a1-bc85-379e4298e350" configVersion="c4e972014101a6449bacd95161d138d800000000"/>
+		<Metadata name="Document.Документ270" id="d49812a6-3023-4c70-94f3-b400c5cfb2d3" configVersion="27de3ae0f5237b48ba5fac63476f0d5600000000"/>
+		<Metadata name="Document.Документ271" id="fc9ad62d-1129-40b1-96a4-9ac5a5307379" configVersion="d38b98f52bcc744b963784029f0f880d00000000"/>
+		<Metadata name="Document.Документ272" id="e155779c-be09-4cfc-b1d7-c0a2221fda98" configVersion="e09cf85b7d038845853d36b8c2223be000000000"/>
+		<Metadata name="Document.Документ273" id="85fa8f94-f8c8-4611-8d61-e0f6d279d485" configVersion="fa56f3db7d11e84aaca0c5ee4c03a51500000000">
+			<Metadata name="Document.Документ273.Attribute.Питомец" id="1e245ac7-fba4-422a-a702-d13d1f54272a"/>
+			<Metadata name="Document.Документ273.Attribute.Ветеринар" id="f2632cfe-e7c5-4c9d-b604-57d61cfb0c05"/>
+		</Metadata>
+		<Metadata name="Document.Документ273.Form.ФормаДокумента" id="9a88c5a0-d2c5-456a-a858-049ecf28ac7d" configVersion="fbccf3f4f3a083419c62933059e82e9b00000000"/>
+		<Metadata name="Document.Документ273.Form.ФормаДокумента.Form" id="9a88c5a0-d2c5-456a-a858-049ecf28ac7d.0" configVersion="ba4b689d4074c045a0b476f3923f452600000000"/>
+		<Metadata name="Document.Документ274" id="fc724f3a-41a5-4c45-a0a4-abb067429c40" configVersion="45e023b6bab17a47bb4bb6e3331e3b9600000000"/>
+		<Metadata name="Document.Документ275" id="bbae438f-f7b0-401f-b4a2-a16761b3b3a2" configVersion="a645a985eb83c44ca03bd3d7965dd79500000000"/>
+		<Metadata name="Document.Документ276" id="eff0224c-a500-4c07-b990-f0f6fb4c1116" configVersion="fc2ebaafef7d404eb0bd2ecd0deac53200000000"/>
+		<Metadata name="Document.Документ277" id="19e7736d-ec2d-45d8-8a4e-413a838714ef" configVersion="2770513aff4f2e4ead32ca3583dda27a00000000"/>
+		<Metadata name="Document.Документ278" id="edfc7bac-5a3d-4ed5-bd02-73b575db1f26" configVersion="14013b19a16c8b4f8b7cc8df15e8f31800000000"/>
+		<Metadata name="Document.Документ279" id="7b131166-ee7d-414f-9aee-964209a125f3" configVersion="4c7ceda666e7c04eace6fb595c7ba10100000000"/>
+		<Metadata name="Document.Документ28" id="f31d8167-c00f-4732-b8ab-e35763ec4409" configVersion="fe551732739fcb4482422b7fe66fb95a00000000"/>
+		<Metadata name="Document.Документ280" id="c610884c-2fb4-4868-a83f-3f270e5ac0a9" configVersion="420d8585973f6c4f82fbdefd233d85c100000000"/>
+		<Metadata name="Document.Документ281" id="3de1ccac-07a6-4f17-aa27-dc6c4f7a04ab" configVersion="106248fc76a7de4fa61d5e691cec8b7400000000">
+			<Metadata name="Document.Документ281.Attribute.Ветеринар" id="04b7119c-da62-4437-aa54-6136a42c1455"/>
+			<Metadata name="Document.Документ281.Attribute.Питомец" id="32c259da-49eb-4428-ba3f-3922dd24893c"/>
+		</Metadata>
+		<Metadata name="Document.Документ281.Form.ФормаДокумента" id="5dadb9d0-e7f2-42f2-bb32-27015a34476c" configVersion="7a56c2076dfe0640b2a27f0c6ad0ce1200000000"/>
+		<Metadata name="Document.Документ281.Form.ФормаДокумента.Form" id="5dadb9d0-e7f2-42f2-bb32-27015a34476c.0" configVersion="4b6fc82365c5194f989064570611055c00000000"/>
+		<Metadata name="Document.Документ282" id="56a7d537-80f0-4668-8d62-3123cef277ae" configVersion="a6c73a9941babb49ad322b5f48990d0100000000"/>
+		<Metadata name="Document.Документ283" id="b575fc66-2216-4c75-bd8d-e841dc1bc001" configVersion="86ab7102ba83774d9f7bcc5955178a6500000000">
+			<Metadata name="Document.Документ283.Attribute.Ветеринар" id="b1ab4af5-2bcc-4488-a506-a2c03227d0c7"/>
+			<Metadata name="Document.Документ283.Attribute.Питомец" id="e5c7b63b-e27b-410c-9bcd-e757273df639"/>
+		</Metadata>
+		<Metadata name="Document.Документ283.Form.ФормаДокумента" id="a62af7f5-1bc7-4c49-9057-e455ef26df72" configVersion="888b65d196f17042b90c5fbf17d0b43800000000"/>
+		<Metadata name="Document.Документ283.Form.ФормаДокумента.Form" id="a62af7f5-1bc7-4c49-9057-e455ef26df72.0" configVersion="ec4986b95cb884428e67bc2acd65cacf00000000"/>
+		<Metadata name="Document.Документ284" id="d730daff-006f-4030-a57a-1aa83b12f6b8" configVersion="5fa9fe89c7432045858555962b8fc8d900000000"/>
+		<Metadata name="Document.Документ285" id="fab49936-0f44-4630-9144-12b319282139" configVersion="bc33be593463c144b56d0f06398fc3c400000000"/>
+		<Metadata name="Document.Документ286" id="511584b9-dc25-4d39-bdcb-e38fd595a9b0" configVersion="4d0b278aeae4a74a9fc5bcba1323b24300000000">
+			<Metadata name="Document.Документ286.Attribute.Ветеринар" id="5b8521c1-b1c6-461e-96c8-c2d51199e09f"/>
+			<Metadata name="Document.Документ286.Attribute.Питомец" id="a9bd372e-2c81-40c7-af50-935b8c0e4e8a"/>
+		</Metadata>
+		<Metadata name="Document.Документ286.Form.ФормаДокумента" id="6b5ba265-3929-4a58-a07d-01e82773bedd" configVersion="20eeecc00de13f4aa95f4b0fe827609000000000"/>
+		<Metadata name="Document.Документ286.Form.ФормаДокумента.Form" id="6b5ba265-3929-4a58-a07d-01e82773bedd.0" configVersion="78d5cdf51c9146449c533f753d6eff6e00000000"/>
+		<Metadata name="Document.Документ287" id="bbceeeba-40f1-4674-91a2-1e2f10fff76d" configVersion="88d3f15edb649c4991a81b92a89c747200000000">
+			<Metadata name="Document.Документ287.Attribute.Ветеринар" id="0685b18e-2a7d-4382-86d7-211db7f1d6d2"/>
+			<Metadata name="Document.Документ287.Attribute.Питомец" id="c722fcc1-cd36-4e73-abfc-916899919988"/>
+		</Metadata>
+		<Metadata name="Document.Документ288" id="e2ab073d-1b1f-40f1-bacf-27ba9a8bc1ae" configVersion="849120f6478c1c48a513ab4a5cf0d82100000000"/>
+		<Metadata name="Document.Документ289" id="230fde9f-469d-44fd-8af0-9bfb3210fe63" configVersion="d0ef50833958924dbd5230d4ae44c5c400000000"/>
+		<Metadata name="Document.Документ29" id="dcca7d6d-f975-42aa-ba80-440faa69a090" configVersion="7ece3d200a093f459117153f8b1e789400000000"/>
+		<Metadata name="Document.Документ290" id="951dec21-02c3-4c0f-aa79-fea035e1d00c" configVersion="94e59f5894fec64ab7f0a08dbaa92c5c00000000"/>
+		<Metadata name="Document.Документ291" id="6c6ad4cc-95ba-410d-9f23-b64d8212501d" configVersion="6715292134c714449a0494cb50f1a91b00000000"/>
+		<Metadata name="Document.Документ292" id="c6b5c9b8-7f55-48b1-905e-242e2ce94eb0" configVersion="7b6bb3ad583f3f429540e1ccac159d9d00000000"/>
+		<Metadata name="Document.Документ293" id="44b88ee8-1011-40bf-9a5d-804f9d13f411" configVersion="997c0f9d9c86584b89ae57c47dd1884300000000"/>
+		<Metadata name="Document.Документ294" id="d0b69245-5b58-4b0d-be22-2c78bc1934f0" configVersion="537252bd8d4298408f2f7ca97b1a3e2100000000"/>
+		<Metadata name="Document.Документ295" id="6ea36a6a-8ded-4ab0-84d4-a37c7d6129b7" configVersion="ecf3669c4f7c8546a0330fc79f197aa600000000"/>
+		<Metadata name="Document.Документ296" id="559dacfa-ea29-4919-a60d-5ab7cb915a6e" configVersion="0c19a543ba519e42a9eb7d459e78330000000000"/>
+		<Metadata name="Document.Документ297" id="29bb7ad7-36fc-47e6-a466-704578b129e0" configVersion="33eb057efd509243ba921274fe81abf000000000"/>
+		<Metadata name="Document.Документ298" id="6b097f0e-dd7f-47ed-80b1-1a651f7920b7" configVersion="00ed89d129483344a09db92fb801121b00000000"/>
+		<Metadata name="Document.Документ299" id="12d44555-a41e-49ba-8952-0de7014dd5e8" configVersion="416ca5501fad3b4eb24ac028e7ca81f500000000"/>
+		<Metadata name="Document.Документ3" id="149354a8-63f2-43c8-a882-76ed20f5f8ee" configVersion="7e8b7832cff0a046b486648cdbde3bcb00000000"/>
+		<Metadata name="Document.Документ30" id="1eaf70af-0b0f-4313-bdd4-200f17589915" configVersion="ee641ca0b1193346971ae2395e5f1aa000000000"/>
+		<Metadata name="Document.Документ300" id="0a8d8738-76ce-4b2c-9ee4-b1f9a19f5a10" configVersion="bd22a299b25dc94a845cef30d82c40b600000000"/>
+		<Metadata name="Document.Документ301" id="66e1e542-d253-4a6f-943e-06cf80d96daf" configVersion="2f5c81abf374124abac2b18a428c930e00000000"/>
+		<Metadata name="Document.Документ302" id="ec984e80-ca92-42ae-b0f0-eab8742ab778" configVersion="3ac74d74843d0940ba002d13d22634b600000000"/>
+		<Metadata name="Document.Документ303" id="b815d46d-f926-4ed5-962d-24d9194824c0" configVersion="ec876b3935d4994b980103f6db5947b100000000"/>
+		<Metadata name="Document.Документ304" id="ce1a833b-8317-437b-bd9f-58380472bb89" configVersion="7266e026ce7ba34384424a1822409b8a00000000"/>
+		<Metadata name="Document.Документ305" id="ec5d259f-1c64-4603-a2ef-c6ea8660c507" configVersion="9ec6305380b1f74184cb75f335e029c400000000"/>
+		<Metadata name="Document.Документ306" id="f00b0026-1c42-4f56-ac36-045ce7a68924" configVersion="95f6f5dae3d4084fb41c18a44e68fa7e00000000"/>
+		<Metadata name="Document.Документ307" id="a8c54f15-422b-4c64-87f5-0c18cdae08b4" configVersion="213129dc830a1145aef38a6f118ffe1300000000"/>
+		<Metadata name="Document.Документ308" id="5487cbbd-677d-4898-b42f-2f4bb0da74b7" configVersion="214836564eb3e144b4a6d9ef2ee84b9700000000"/>
+		<Metadata name="Document.Документ309" id="51e22c18-2bc8-4bf1-9877-6a5c0c0d924c" configVersion="fdf0d903476b704e81864d27d06e3b3400000000"/>
+		<Metadata name="Document.Документ31" id="7688dd7a-547c-4485-8937-3c5bfd331d56" configVersion="032e84800b091e4f935aae101140b17100000000">
+			<Metadata name="Document.Документ31.Attribute.Питомец" id="67827fe1-7d75-444b-8154-f96c8c915bd1"/>
+			<Metadata name="Document.Документ31.Attribute.Ветеринар" id="912f23d3-b282-41e4-a28c-9c9e96b547c7"/>
+		</Metadata>
+		<Metadata name="Document.Документ31.Form.ФормаДокумента" id="abc3a3b6-ac91-4f7c-8b60-9ec1298ecd26" configVersion="53a4ad2dfe5f2d42bf74abfb850879b100000000"/>
+		<Metadata name="Document.Документ31.Form.ФормаДокумента.Form" id="abc3a3b6-ac91-4f7c-8b60-9ec1298ecd26.0" configVersion="1dee6687e684d9488a892ae4ee961bf700000000"/>
+		<Metadata name="Document.Документ310" id="4fd74341-05d9-4c02-9cad-bdfafec0b62a" configVersion="79018ff5a2dc1b4c90e0ee3b2e72e33d00000000"/>
+		<Metadata name="Document.Документ311" id="5e7a19d5-9722-43c0-8501-a7400e8be82f" configVersion="f705b5afc0b6c8408d5391c09967d6d700000000"/>
+		<Metadata name="Document.Документ312" id="80c75939-a1aa-4471-b5e3-525606deb8e0" configVersion="2bd82111160f6a47a831087c4bdf15ea00000000"/>
+		<Metadata name="Document.Документ313" id="f2418e0a-fe62-4d4e-8739-ee7cd95b4972" configVersion="35c342db82fb544bac2dbf1f3aa0fd0d00000000"/>
+		<Metadata name="Document.Документ314" id="9a7a424c-edda-4e6d-be44-e83e5194113d" configVersion="4efbe46541ca1c4bb3454b21dad9ddd900000000"/>
+		<Metadata name="Document.Документ315" id="6fc29d96-77f2-4eef-80f4-c3accbed33fc" configVersion="0638f9897ce7344aa64516191dff21ba00000000"/>
+		<Metadata name="Document.Документ316" id="22fe03f0-ec4a-48f7-aa8a-2d980b13424b" configVersion="b1b32f5c7b61324794be76e4e5cc298700000000"/>
+		<Metadata name="Document.Документ317" id="06c71891-bb9e-4a15-82c7-591f22023d78" configVersion="63ad5e830ede6f4b80a01845a65ed8ca00000000"/>
+		<Metadata name="Document.Документ318" id="5194ba52-f74f-4fee-b3bc-b92e5a0d66a1" configVersion="c69798c93133c5458987d9fdcb922b8b00000000"/>
+		<Metadata name="Document.Документ319" id="55685507-1bfb-43c7-a1ad-58753cc75eac" configVersion="661750dabfc6b04eacbfd66d1d5f8b5e00000000"/>
+		<Metadata name="Document.Документ32" id="298945be-2bb4-4e02-b4db-40864cfab69d" configVersion="118d9b31cd7a8c42a5955ce91dd9ef9100000000"/>
+		<Metadata name="Document.Документ320" id="4d08e653-f09b-459a-abb2-0a781e6e2e9b" configVersion="66a530a586746749a2220d9ec32f9d8c00000000"/>
+		<Metadata name="Document.Документ321" id="2b7a5f17-3d86-4e62-a19c-5a848d47cf50" configVersion="cb390350fbd2d0488f9fec21e1f98cf100000000"/>
+		<Metadata name="Document.Документ322" id="8f20a963-9968-471e-b413-7f3a01c6cf7d" configVersion="e1aab2a89be62a4f98b3c08003624da600000000"/>
+		<Metadata name="Document.Документ323" id="4fdd7e9f-f1ad-4aba-87eb-0abdcd682d68" configVersion="96f97d71ffcb9c41bbed9869d0ffb77a00000000"/>
+		<Metadata name="Document.Документ324" id="60ac7d54-55d3-4e6f-b03a-885fb7ddbcf9" configVersion="003400f46a107c429b9fbe2c9883f5eb00000000"/>
+		<Metadata name="Document.Документ325" id="e820163d-a912-4e42-815a-2ab96dda1842" configVersion="01002af39b88e44fba99a126b9632a0500000000"/>
+		<Metadata name="Document.Документ326" id="1bc680cc-c9f3-4520-bbd7-afd78443d194" configVersion="b228f3f68dce434b8370772d606a425a00000000"/>
+		<Metadata name="Document.Документ327" id="f4a77203-bfaa-4726-8a6d-6cb92885aa70" configVersion="2ac0dfcf69aa1646962b22053420423800000000"/>
+		<Metadata name="Document.Документ328" id="823f059d-4b61-46a7-abe8-c4650bdd58d5" configVersion="48a618e0394c3c44a9f7a73851170ea200000000"/>
+		<Metadata name="Document.Документ329" id="976ffcde-08af-4f2d-9bb0-0821aae51b8d" configVersion="6e2bb4921c1b2449875cbacc676d08ed00000000"/>
+		<Metadata name="Document.Документ33" id="79c6e221-c840-4572-85a2-39e44f9b520b" configVersion="5de8bc17e0bfd541998864427d969ad800000000"/>
+		<Metadata name="Document.Документ330" id="96107013-94d3-4120-b4d6-745e71a5e58d" configVersion="cb364ce9744f7344b107c3afa538c3af00000000"/>
+		<Metadata name="Document.Документ331" id="e5c54728-6cfb-40a9-ab84-4aaeda992504" configVersion="06151fd5995127489af03261684e9d5c00000000">
+			<Metadata name="Document.Документ331.Attribute.Ветеринар" id="151777bd-87e7-4e9b-ae2d-caf3fead96c4"/>
+			<Metadata name="Document.Документ331.Attribute.Питомцы" id="67b1ea23-461d-46dc-8e8a-c62864f10481"/>
+		</Metadata>
+		<Metadata name="Document.Документ331.Form.ФормаДокумента" id="3fca5cf0-792e-46e5-91a2-e574e55ac040" configVersion="34b2ee3c90b35c40a8602a498468280f00000000"/>
+		<Metadata name="Document.Документ331.Form.ФормаДокумента.Form" id="3fca5cf0-792e-46e5-91a2-e574e55ac040.0" configVersion="6726d6d0d207a9448523e60cf067045500000000"/>
+		<Metadata name="Document.Документ332" id="95d5bccf-8040-44f8-8b68-3e75be5f1b14" configVersion="47931075f8d6e24b9abb98bd4a3590e300000000"/>
+		<Metadata name="Document.Документ333" id="209662cd-b525-4aaf-8ae4-72711d1d7ad0" configVersion="d07e275571c7434ab0d0a69197c233dd00000000"/>
+		<Metadata name="Document.Документ334" id="107fa42b-3275-454e-b7eb-2db9c4733f20" configVersion="4fa1f61a667c3a43be24d463bf5c14fe00000000"/>
+		<Metadata name="Document.Документ335" id="edce74b1-6163-4a0f-877a-63a04609336c" configVersion="f70d5453b4d0d04b91c41fa64b60e30e00000000"/>
+		<Metadata name="Document.Документ336" id="19c34959-b1ef-4280-a99e-44404634f831" configVersion="0c76410c8cbfed47968552af63c9247500000000">
+			<Metadata name="Document.Документ336.Attribute.Питомец" id="ae3e07db-0285-4c4a-b6cd-3621b97302b1"/>
+			<Metadata name="Document.Документ336.Attribute.Ветеринар" id="cbd04218-533f-4903-9f1b-47744c4e5356"/>
+		</Metadata>
+		<Metadata name="Document.Документ336.Form.ФормаДокумента" id="72dbf7f5-5340-45bb-b110-ef868d38f2bf" configVersion="60cba5f3657ea9428d7fe6a183e245fb00000000"/>
+		<Metadata name="Document.Документ336.Form.ФормаДокумента.Form" id="72dbf7f5-5340-45bb-b110-ef868d38f2bf.0" configVersion="04254d850f29f64babe412abf1ad8a2400000000"/>
+		<Metadata name="Document.Документ337" id="17b546f4-b572-4e00-8250-d8d370648966" configVersion="3ce066b16affb245b61750520b1402d900000000"/>
+		<Metadata name="Document.Документ338" id="1475fc84-416e-4d7d-a0ea-29002073cc79" configVersion="54863a50de9ab34ca403ea87eee6571d00000000"/>
+		<Metadata name="Document.Документ339" id="38bad365-5ed8-4b90-8beb-b332b5d07e82" configVersion="3ec389ac6884d244bd63ef8d7850ba4300000000"/>
+		<Metadata name="Document.Документ34" id="b590cd1f-21e4-454b-898c-ce9cd31a8f86" configVersion="74892df0db197d46853602e892b651df00000000"/>
+		<Metadata name="Document.Документ340" id="ae1d905b-edae-44d0-833b-16aed4ad461b" configVersion="829ec7e2e4e7304291e855c079c905bd00000000"/>
+		<Metadata name="Document.Документ341" id="bfd7d88a-398d-498a-a2ef-4dd30cd75bad" configVersion="1d468201a74d5d49b261fec7add74f2100000000"/>
+		<Metadata name="Document.Документ342" id="843e0591-32d7-489b-b60c-9cdcb539ff69" configVersion="2b6e175906f1fc4ebd3c906776dd674f00000000"/>
+		<Metadata name="Document.Документ343" id="72f86dbe-8e0e-4a6d-91bd-38ad0c914000" configVersion="79042b7e957fbe499f54f3b56ae0ddb600000000"/>
+		<Metadata name="Document.Документ344" id="5dffbfb1-fa74-4239-b6f6-581439aa2c6a" configVersion="2c698436fa2a6345a91bfe4ff2e8953100000000"/>
+		<Metadata name="Document.Документ345" id="f9e32404-7e6f-4bc1-98cb-c51ebbbda30b" configVersion="7238bf8aa842ff4f80d54ca35a326be900000000">
+			<Metadata name="Document.Документ345.Attribute.Ветеринар" id="014e91f3-a352-44d2-a1ea-143ef4abeb0c"/>
+			<Metadata name="Document.Документ345.Attribute.Питомец" id="a8bb4f13-dabf-48df-8de1-2667b5465d29"/>
+		</Metadata>
+		<Metadata name="Document.Документ345.Form.ФормаДокумента" id="11a9a2a6-19b3-4c15-a9d3-bd289e702037" configVersion="c83386158c71eb4c9de8d5f23e881f2e00000000"/>
+		<Metadata name="Document.Документ345.Form.ФормаДокумента.Form" id="11a9a2a6-19b3-4c15-a9d3-bd289e702037.0" configVersion="2c6ae06db1a9a1429bfec902748d904800000000"/>
+		<Metadata name="Document.Документ346" id="2163606b-7062-457e-afdc-db02c714ab48" configVersion="d94a5f0d9e0f3e49b69f04e56c16c53500000000"/>
+		<Metadata name="Document.Документ347" id="199f58fc-5ddd-404e-879e-8dd68da735f0" configVersion="8bf0e99cbd4d9741ab11be8e4039a76e00000000"/>
+		<Metadata name="Document.Документ348" id="578b4044-46ea-411d-b74b-e55eda007167" configVersion="eaa639c4f3a5564dacedb68249894a8800000000"/>
+		<Metadata name="Document.Документ349" id="4603d72d-4cc2-4262-ad75-ef514ab82dd0" configVersion="33422dec302c2b48af935d94c3b2196400000000"/>
+		<Metadata name="Document.Документ35" id="cb4456ba-a800-4b57-9127-3a95a594925c" configVersion="4b532e5ce0903f4ca547f0778c223ed500000000"/>
+		<Metadata name="Document.Документ350" id="4c4b3ba9-7a4a-4c58-8308-b1cb9d1627e9" configVersion="67549732f57aa0409fe73eabdb4252ef00000000"/>
+		<Metadata name="Document.Документ351" id="460d7c87-9880-45f3-a0a3-74342f13941d" configVersion="9ef8e01624206347944f6a5ace9b84be00000000"/>
+		<Metadata name="Document.Документ352" id="89be3526-c1d9-454d-acaf-a47dde970dbb" configVersion="5f974259a0070d40bad44b63b8e1e65600000000">
+			<Metadata name="Document.Документ352.Attribute.Питомец" id="56d2c211-aa60-4e74-9fa5-87fc61766338"/>
+			<Metadata name="Document.Документ352.Attribute.Ветеринар" id="cedc40fa-c3f4-4b4b-81c7-8bdc31e17f39"/>
+		</Metadata>
+		<Metadata name="Document.Документ352.Form.ФормаДокумента" id="b1cf37cf-ef5b-486a-9ae6-86c40f72c0a8" configVersion="57e92acf88a4e54994571993ab1a88a100000000"/>
+		<Metadata name="Document.Документ352.Form.ФормаДокумента.Form" id="b1cf37cf-ef5b-486a-9ae6-86c40f72c0a8.0" configVersion="12afea7297a4ec49b3c3395668cb989400000000"/>
+		<Metadata name="Document.Документ353" id="91c001d2-9a24-4332-bb4d-0325a80afb1e" configVersion="cd84526d8b2984449794be9e331f00a800000000"/>
+		<Metadata name="Document.Документ354" id="ed9d7499-63a2-4f74-835a-777429baaec8" configVersion="fea080324ee3684f81a6e631c7644b3900000000"/>
+		<Metadata name="Document.Документ355" id="964aca18-fbe0-4862-a394-2007848c5042" configVersion="d0ef92df85bc5a40b24eea1a37db70bd00000000"/>
+		<Metadata name="Document.Документ356" id="c4964c03-6b87-41c9-b0bc-a5fb9d70f9b7" configVersion="5c45782b3911fa4a8dd80bf0b1fae2d400000000"/>
+		<Metadata name="Document.Документ357" id="879a6c1b-5912-45ff-9ea8-a03e4b2e838e" configVersion="bb1195a49a2185439e50b2481a65f10500000000">
+			<Metadata name="Document.Документ357.Attribute.Питомец" id="27844706-0e60-47a2-af4f-57a087a3c203"/>
+			<Metadata name="Document.Документ357.Attribute.Ветеринар" id="3c28b2aa-1d93-413f-94fe-4d187f6a9494"/>
+		</Metadata>
+		<Metadata name="Document.Документ357.Form.ФормаДокумента" id="1a8ed609-4582-4723-b179-b2ac2c1501f5" configVersion="7ddf8b482936704285790431153e177600000000"/>
+		<Metadata name="Document.Документ357.Form.ФормаДокумента.Form" id="1a8ed609-4582-4723-b179-b2ac2c1501f5.0" configVersion="971cbb3e1751dd489a421c9f15812f4600000000"/>
+		<Metadata name="Document.Документ358" id="8811e1d7-4b52-4c0d-9c9c-34b0bdd4c0e3" configVersion="a9250b37384eb240bdc232b8de2355e600000000"/>
+		<Metadata name="Document.Документ359" id="0ac31bdc-ff1c-45dc-b11f-9109a4ee50ac" configVersion="bc3ccdae2d1afa43bc89ef9bbaa9630c00000000"/>
+		<Metadata name="Document.Документ36" id="d34300be-1a8f-49e4-a9c1-8b23e8cdfe67" configVersion="a09c95fb37abd444bf54ce2cbc22a7a500000000"/>
+		<Metadata name="Document.Документ360" id="66dbe371-7106-4858-9949-555ec6a1492e" configVersion="ef5640ccdd25cd4f8126e2a9022ffc8400000000"/>
+		<Metadata name="Document.Документ361" id="2b899661-0ebb-4277-ac2b-5f160770898b" configVersion="0499c9c663ba1048b245c5a2399ab0d200000000">
+			<Metadata name="Document.Документ361.Attribute.Питомец" id="31150ade-502a-4f1b-bc4c-39765873ead9"/>
+			<Metadata name="Document.Документ361.Attribute.Ветеринар" id="a48d786d-024f-4f56-b7a6-3f59252c14de"/>
+		</Metadata>
+		<Metadata name="Document.Документ361.Form.ФормаДокумента" id="ca7e3716-8caf-4afe-b609-ef28b1267f8b" configVersion="ccdff7464f6fb64bb4203ed3cf492ab800000000"/>
+		<Metadata name="Document.Документ361.Form.ФормаДокумента.Form" id="ca7e3716-8caf-4afe-b609-ef28b1267f8b.0" configVersion="60606eb49342aa4591704035db7687e000000000"/>
+		<Metadata name="Document.Документ362" id="52f2c234-900e-4ee2-9a04-695e571cb6e8" configVersion="50abc4d6c24b1645acde9a38e7bf949a00000000"/>
+		<Metadata name="Document.Документ363" id="10e678a4-275c-452a-ac22-82e119452b0e" configVersion="f98b2cada70f1a48bf8c86e5f115ab2300000000"/>
+		<Metadata name="Document.Документ364" id="45fa8b5e-cda9-469e-9664-f486d51ec391" configVersion="bcab5ab9e5a4aa428e18e42428116ccd00000000"/>
+		<Metadata name="Document.Документ365" id="3e96cf0a-87b7-489f-af11-005a0bd13480" configVersion="b12641b08c55c94aba3e3f0926f0793600000000"/>
+		<Metadata name="Document.Документ366" id="c92a43a4-66db-425d-a3c0-35f609b7df8d" configVersion="05c56eaa107d7f47aa9985b53848183e00000000"/>
+		<Metadata name="Document.Документ367" id="8437ae3a-a35c-4de7-a645-6545abd09aa2" configVersion="60af9ee4faf87f4e99004afd2b01c5a000000000"/>
+		<Metadata name="Document.Документ368" id="6940bd1b-2dc1-4206-b45d-04eaa16ab5f0" configVersion="a59d313c47d36143b2e77db17b27781a00000000"/>
+		<Metadata name="Document.Документ369" id="70a251ba-5ea9-4ab5-8f0c-32d78c139161" configVersion="f3944cad0855d740953061dc6a424c8f00000000"/>
+		<Metadata name="Document.Документ37" id="02a25a99-6b82-4e90-a3b5-b7a4141bd5d1" configVersion="cb6b9db0981344428612f2e4be860e6900000000"/>
+		<Metadata name="Document.Документ370" id="9fb68e2f-2ef8-48e8-889b-ee89f266016d" configVersion="044e8470faf52440be8bde3d4810b42e00000000"/>
+		<Metadata name="Document.Документ371" id="3984c395-b5de-4c27-a320-93bc7538fdc7" configVersion="4799637500f20c49907f505d5f9323bb00000000"/>
+		<Metadata name="Document.Документ372" id="4849e649-6088-4659-a5fe-0f67b684c3c8" configVersion="f2a8ea8ed595f9478e6f1d375d0c877900000000"/>
+		<Metadata name="Document.Документ373" id="6c469b53-f8f1-4aaf-bb12-3c61ad4d540e" configVersion="2e1a43d55a514542a5aa42aaccd0f76300000000"/>
+		<Metadata name="Document.Документ374" id="a8a86343-bf2c-4db4-8f99-2017599a98b8" configVersion="7606da778e24d345b2315e7698ba8f4200000000"/>
+		<Metadata name="Document.Документ375" id="418029ac-6a6b-452b-b037-5a0c834f9cd2" configVersion="ef164c2452958946a8705abfec54fe1200000000"/>
+		<Metadata name="Document.Документ376" id="00081500-a6ac-44ec-ab86-5a9b70a7475e" configVersion="7622a60a919ee743a9ae10af11fd9e5c00000000"/>
+		<Metadata name="Document.Документ377" id="efd28c36-3e07-404c-9e09-bcbf6fff988e" configVersion="3dce84751e3caf44b7fb83750286024f00000000"/>
+		<Metadata name="Document.Документ378" id="522e8b39-7388-4395-a0b4-b7d31af45e61" configVersion="04c6d2744d138a43bdef2651b3b9d02000000000"/>
+		<Metadata name="Document.Документ379" id="35fa84f8-79f2-4775-adbc-a7df630ac940" configVersion="992b67efa4ea6544876b6166a261dd1200000000"/>
+		<Metadata name="Document.Документ38" id="fc208e8a-189e-4f8a-9816-c12782eeeef9" configVersion="e6ea0a5654d27149b7939bb3e4d7401e00000000"/>
+		<Metadata name="Document.Документ380" id="4479dbb9-2a38-4f20-ac08-44f38064d556" configVersion="463bf0e3e52970479efcf911eab0191b00000000"/>
+		<Metadata name="Document.Документ381" id="00528e1d-2afe-4416-9f6f-c5c7bb650648" configVersion="eee436cf31aacf4487a2e4331bbd43f600000000"/>
+		<Metadata name="Document.Документ382" id="39ff101d-d235-47f8-9d62-c931afbe83cd" configVersion="0308148be0cfc04a8af17250b054ab6900000000"/>
+		<Metadata name="Document.Документ383" id="cd9b55a9-72cd-46a1-b9df-8ca78869524f" configVersion="249c47aed55bb44bbaa2d2c1d6d124d800000000"/>
+		<Metadata name="Document.Документ384" id="bfbe2819-f66e-4cbc-b36a-b2c2af668d45" configVersion="a0ee0fde5ede33429a00401ddf82446200000000"/>
+		<Metadata name="Document.Документ385" id="12107d57-27cf-4589-a9ce-05ab7517e48f" configVersion="bafc9b8d0514fd429b53ccbb77cffcb400000000">
+			<Metadata name="Document.Документ385.Attribute.Питомец" id="bf399830-f849-4c03-951d-5c291786c078"/>
+			<Metadata name="Document.Документ385.Attribute.Ветеринар" id="dd6a6ef6-4cd0-44ef-a4ea-16d07a7143a0"/>
+		</Metadata>
+		<Metadata name="Document.Документ385.Form.ФормаДокумента" id="a3e15708-66a0-4fb2-b199-e7af84f71d72" configVersion="b52651a69887fa45879149e95370c41c00000000"/>
+		<Metadata name="Document.Документ385.Form.ФормаДокумента.Form" id="a3e15708-66a0-4fb2-b199-e7af84f71d72.0" configVersion="dd75366e3ae78c4aa1e02e592e80db7200000000"/>
+		<Metadata name="Document.Документ386" id="0a3a6a0e-35b0-442c-b941-4bf71cee73b4" configVersion="8b0a52f55cefa640885ee2b240009dc100000000"/>
+		<Metadata name="Document.Документ387" id="e7f81ac1-13cb-4aeb-af00-a126c6af6018" configVersion="3024c2f641006c4b86feee8e9dcf797600000000"/>
+		<Metadata name="Document.Документ388" id="0dc041aa-cbba-4e89-aba7-82f49315649b" configVersion="e18db3704acaa245afd9a59b4f676fcb00000000"/>
+		<Metadata name="Document.Документ389" id="08e14bce-6dee-4363-ac03-faa1b7b71406" configVersion="9bee5c93555ad24a9bb481fe0b5736f300000000"/>
+		<Metadata name="Document.Документ39" id="df0fe855-da74-40a7-bf2e-f9b7c69e8cd1" configVersion="cad8ca17e8ef8b4da280ba199199b2f800000000"/>
+		<Metadata name="Document.Документ390" id="d15815c3-73a2-4c58-844e-58fdf4c5fd14" configVersion="1b9b12782a74fa40b5cf40382c1b241300000000"/>
+		<Metadata name="Document.Документ391" id="aca3d77d-6b66-46c1-8ece-2166e1b90467" configVersion="614c1da2daddfc4d83d9b9b95f90ab0500000000"/>
+		<Metadata name="Document.Документ392" id="2948434b-5682-4393-a994-c61b15b53a93" configVersion="a2a4682ecc34b44abb8649bfae4097d400000000"/>
+		<Metadata name="Document.Документ393" id="147c0787-b0f1-4576-bbf4-5d87bf9c0aab" configVersion="098d7d66f2ae864ba07727cc8ff7480b00000000"/>
+		<Metadata name="Document.Документ394" id="40018f1f-8484-4654-a112-24333052e6e6" configVersion="057c5842c4504e4998469fd69d7d15b400000000"/>
+		<Metadata name="Document.Документ395" id="f1883750-539b-4f1f-8351-7798c2b901e9" configVersion="cd5bb54378de2d4c887d6c84ccf423f800000000"/>
+		<Metadata name="Document.Документ396" id="c7ea6916-ba37-4eb2-8739-e53821aaa8cb" configVersion="0e2ac128d2f2f947ada7c4ec7059bd2400000000">
+			<Metadata name="Document.Документ396.Attribute.Питомец" id="0ef2576e-f1b5-4d07-8c02-a842cc4c6bc6"/>
+			<Metadata name="Document.Документ396.Attribute.Ветеринар" id="254d990c-76b7-4259-822e-0dc5f5abf75d"/>
+		</Metadata>
+		<Metadata name="Document.Документ396.Form.ФормаДокумента" id="f3848d0e-e05d-4732-a8ae-ca08c91cb97f" configVersion="a2f1f8aff0380345af73972f79c1771a00000000"/>
+		<Metadata name="Document.Документ396.Form.ФормаДокумента.Form" id="f3848d0e-e05d-4732-a8ae-ca08c91cb97f.0" configVersion="ec2b303ce50fc545ba8664b93935c5fc00000000"/>
+		<Metadata name="Document.Документ397" id="e720325b-18ba-4fa0-8817-834df6e9d5b3" configVersion="91814335a603c449925e190208c5c30800000000"/>
+		<Metadata name="Document.Документ398" id="163d1cea-a2e0-4a96-a3f3-a2965c5aaa60" configVersion="4b723620fb81e54fbe0ff5363984139000000000"/>
+		<Metadata name="Document.Документ399" id="71ec7823-f7b2-4a3d-8423-b617b22d6f6a" configVersion="74588e9510e0874cb3ae35e1cdd7602900000000"/>
+		<Metadata name="Document.Документ4" id="a0de0717-735c-466a-9afc-8da274a1b41d" configVersion="8205fd28dbf6f64c9f7769e216deab1300000000"/>
+		<Metadata name="Document.Документ40" id="4907053e-0dea-4120-ab83-53ac8c13e8a8" configVersion="9e86ce5aebb8cb48abee85533541aa7900000000"/>
+		<Metadata name="Document.Документ400" id="c74ff208-dbe0-4b95-bc3b-27d7bef4e8a6" configVersion="9e4f5233e4426b468b0afc73754ee8c500000000"/>
+		<Metadata name="Document.Документ401" id="ecd76173-431f-44a8-a21d-0f930c123c3a" configVersion="625daea1204c6140948ad271fdd5735b00000000"/>
+		<Metadata name="Document.Документ402" id="a4e9f077-957a-49c3-b437-22d458fa20a7" configVersion="d16fe04d391bbe4a9cdd64c1f12f317300000000"/>
+		<Metadata name="Document.Документ403" id="f9055400-b58b-4a11-82cc-278789966f3b" configVersion="5761801cb682f2478c9388e1485ce40b00000000"/>
+		<Metadata name="Document.Документ404" id="fe5996c6-e0ad-4bed-8406-16028c411b63" configVersion="c7dc4270c28de64f827275027a2d46ac00000000"/>
+		<Metadata name="Document.Документ405" id="fcf605e9-9dc5-4c4d-8fa7-fe591c6a7ab8" configVersion="ebc4f6c587df764e9c3312ce6a61527700000000"/>
+		<Metadata name="Document.Документ406" id="b38afe52-ea6b-4ed0-a361-5248030594de" configVersion="72fd73d450bf6a4492ee9323311ba40c00000000"/>
+		<Metadata name="Document.Документ407" id="96a69b3e-c950-4c6e-a03f-caa88105376a" configVersion="d0f8f3d08cc16341943a9053d759cf0b00000000"/>
+		<Metadata name="Document.Документ408" id="535d73d7-1c8e-49ab-875f-a54e76473b45" configVersion="92bc2be4342fe44a8762554b961631d300000000"/>
+		<Metadata name="Document.Документ409" id="73ced897-5211-4af9-b637-f08007082b09" configVersion="a86ba924b0879e499f3ce10b1d2f9bbe00000000"/>
+		<Metadata name="Document.Документ41" id="ba37cf01-61f5-4a59-a9b1-77d9275e2290" configVersion="c7d87206fded774a8d21722d2c088d3100000000"/>
+		<Metadata name="Document.Документ410" id="34ae2bce-8399-4427-a4a5-ef0ad49faff2" configVersion="d60b00cc0f4844418787c542ebbb8fb700000000"/>
+		<Metadata name="Document.Документ42" id="5a0d33a0-9a07-4270-845c-1263dacdb7c4" configVersion="32a315bb42d2344e830f9cd3cc5d63c200000000"/>
+		<Metadata name="Document.Документ43" id="45626c55-1355-4a5d-aba9-89f6263595b1" configVersion="ca1e472aa92f1549a990f0d72062831c00000000"/>
+		<Metadata name="Document.Документ44" id="9c9f23f6-5998-4caf-b8d3-dde5a2b265cc" configVersion="a1f140e7a5b80d439712dba5b150d84d00000000"/>
+		<Metadata name="Document.Документ45" id="64b180ae-a3ff-48c5-bfa2-2c46961a4cd5" configVersion="ab59b0052efa6346a5d190c23c0368b700000000"/>
+		<Metadata name="Document.Документ46" id="81dff7c5-8fb6-460c-96ce-4771d45d6e12" configVersion="0178a75e9009674c93d9ccc1292e734900000000"/>
+		<Metadata name="Document.Документ47" id="a21738c4-79f5-4545-8b07-2201b78c17f1" configVersion="2541cd184b9ca142ad8522875fa0f6f300000000"/>
+		<Metadata name="Document.Документ48" id="90033726-ae8e-4e50-b313-0d74ca755f67" configVersion="2468baf888ba7e42ac319306b64d008900000000"/>
+		<Metadata name="Document.Документ49" id="679c8ccb-ce2a-4126-8df3-46b76c4c94da" configVersion="8555732864640f49a1458d6314f5b5bd00000000"/>
+		<Metadata name="Document.Документ5" id="a92f06c0-dd34-4c27-8093-acf123b9e1e4" configVersion="d79ba8b4e51af545861e8a71181cc63000000000">
+			<Metadata name="Document.Документ5.Attribute.Ветеринар" id="b7b71205-81fa-46b3-a6a8-373d89c3d2b2"/>
+			<Metadata name="Document.Документ5.Attribute.Питомец" id="e46d5ee6-a44a-4658-9caf-ac75b129d868"/>
+		</Metadata>
+		<Metadata name="Document.Документ5.Form.ФормаДокумента" id="a44b96a4-180c-4ca1-8b90-e189e1e146c7" configVersion="ce01af433e5ce04aa62cf469a1bbe8d600000000"/>
+		<Metadata name="Document.Документ5.Form.ФормаДокумента.Form" id="a44b96a4-180c-4ca1-8b90-e189e1e146c7.0" configVersion="57025c0993bbdc459853fd94a4d47ec400000000"/>
+		<Metadata name="Document.Документ50" id="46ef1425-f2f8-4328-acd5-52b88cb406a1" configVersion="a8d40ed998205e49b8b4a62654783ffa00000000">
+			<Metadata name="Document.Документ50.Attribute.Питомец" id="56f58353-a689-466e-bae1-8120d739595b"/>
+			<Metadata name="Document.Документ50.Attribute.Ветеринар" id="db535f8c-25ac-48ea-981d-484aa65ec0d2"/>
+		</Metadata>
+		<Metadata name="Document.Документ50.Form.ФормаДокумента" id="6e9e7d15-b58d-42ae-8632-19942c60bb83" configVersion="7445fa7d6d25b7449ba68ecced9d17fa00000000"/>
+		<Metadata name="Document.Документ50.Form.ФормаДокумента.Form" id="6e9e7d15-b58d-42ae-8632-19942c60bb83.0" configVersion="4f7194436985ff4fa6d3aeac1e89904400000000"/>
+		<Metadata name="Document.Документ51" id="9bd30a22-7c93-4c1b-9aad-165a6409deb8" configVersion="c7999efa629c7743a247c9983b1b1f4900000000"/>
+		<Metadata name="Document.Документ52" id="16dec3eb-c594-4986-9ca2-9fcc0a10371f" configVersion="3818805e46b3074585f6dcec7fa2a87a00000000"/>
+		<Metadata name="Document.Документ53" id="51567dd5-0464-4334-b0fe-3585890b2522" configVersion="c6f1604aef81d744930477ba5da65e6c00000000"/>
+		<Metadata name="Document.Документ54" id="e4d97cd2-67a1-47a5-a6b5-0cf78a4f25c4" configVersion="77873b4c4dda9249b7dac42232fc933700000000"/>
+		<Metadata name="Document.Документ55" id="deda9a4d-e996-419a-a44b-f2bbed6e0ccf" configVersion="b306c810f803674b8db7a51ba037454f00000000"/>
+		<Metadata name="Document.Документ56" id="303c55ae-e9c5-48bc-af13-94a0e60e4b6b" configVersion="f7c654d36f26e94e849e2f5759bb12b700000000"/>
+		<Metadata name="Document.Документ57" id="544846de-d41f-4f05-9a43-21b9f47571fe" configVersion="eac8f1bb7695d04c8716f5fd9f32463800000000"/>
+		<Metadata name="Document.Документ58" id="b37e81d6-01f2-4300-86cb-27cc1c87f528" configVersion="5c5acc933b8e59409f0fd8120fee285800000000"/>
+		<Metadata name="Document.Документ59" id="14c01fe5-aa9d-4f9d-ad1b-db48987219e6" configVersion="e1562ea067b73d408f0b3cf7b1eaee0b00000000"/>
+		<Metadata name="Document.Документ6" id="74264d91-4a2c-439d-86a5-5e615cb22ccd" configVersion="0cc1e88de5cf19479e5b7abc67db933800000000"/>
+		<Metadata name="Document.Документ60" id="15687a65-0825-460b-ad90-a6b2c4402396" configVersion="3a575e70eb36004cb28a55ae592c8dc700000000"/>
+		<Metadata name="Document.Документ61" id="ff5ab702-430e-41bf-80a4-5879779c3155" configVersion="2b2464abd206f24b842d6fc7efba4f3900000000"/>
+		<Metadata name="Document.Документ62" id="d9d06080-7201-4360-a411-5657ecf55700" configVersion="850a05e48e67924c8d452e611a4cd9ac00000000"/>
+		<Metadata name="Document.Документ63" id="87b3ba78-4775-419d-9815-9c9327656ffa" configVersion="2f1040becd02cd4c9306e62ccda5d36600000000"/>
+		<Metadata name="Document.Документ64" id="68027910-5ad6-45c0-a985-b592c41dbf07" configVersion="0ea1414b573b604eaa297015b6344e6100000000"/>
+		<Metadata name="Document.Документ65" id="20186757-8484-46b7-aedb-bd549cc1aae7" configVersion="12e8e652a28a5c409a648d7e43c519ca00000000">
+			<Metadata name="Document.Документ65.Attribute.Ветеринар" id="cc8b1d23-d09f-411f-b799-6750816a7207"/>
+			<Metadata name="Document.Документ65.Attribute.Питомец" id="fbd7ab98-5fac-466e-9ba6-31e92be8738d"/>
+		</Metadata>
+		<Metadata name="Document.Документ65.Form.ФормаДокумента" id="91192ef6-8863-45d4-bbff-f18d5121616d" configVersion="07883e733b486244b2270aa4410f764b00000000"/>
+		<Metadata name="Document.Документ65.Form.ФормаДокумента.Form" id="91192ef6-8863-45d4-bbff-f18d5121616d.0" configVersion="1311873a521aea4a8a2abb5e419ba97800000000"/>
+		<Metadata name="Document.Документ66" id="1ab1312e-f28b-4650-a9b4-a62ef90f744a" configVersion="80ca62dded55574c9e57e4a6fe0c82ac00000000"/>
+		<Metadata name="Document.Документ67" id="f7eaac94-f76f-4da6-827e-a2a459c19dc4" configVersion="57b9e48bb6507d4f8d9c91496ccbfdd200000000"/>
+		<Metadata name="Document.Документ68" id="d59506a7-039f-48e1-92aa-6e2eb6609740" configVersion="c6a2eb71cd4bcb4ca809932a5baa851700000000"/>
+		<Metadata name="Document.Документ69" id="7f123130-5804-4a1d-ad71-25986e5c67db" configVersion="51863b4c91a3f54fa97b8641855afef200000000"/>
+		<Metadata name="Document.Документ7" id="5b240025-0245-470f-8a1f-13b34d7822ea" configVersion="e912124ea5de0648be4f23e65e53aa7400000000"/>
+		<Metadata name="Document.Документ70" id="48611b3e-6810-4714-977f-65788a09e86e" configVersion="f069a211b31cb5439b3cfd65547a8bc200000000"/>
+		<Metadata name="Document.Документ71" id="b29595d3-96e3-4881-bf31-91f14b0f53b2" configVersion="f23982a50abfc748b1b219ca370587a500000000"/>
+		<Metadata name="Document.Документ72" id="c6ccaaba-8f88-494b-9614-b78b48a53cfe" configVersion="af579db8a5220e4493820b5995bbe44300000000"/>
+		<Metadata name="Document.Документ73" id="3d7c42b5-b7c5-4cce-9b21-37c2bfa52c16" configVersion="372b1aa8af1e5e409839f799d28c448f00000000"/>
+		<Metadata name="Document.Документ74" id="10c6fe91-cdce-485f-ad40-27a801b337cb" configVersion="49a6f5cd9d171342bab3862bf425620000000000">
+			<Metadata name="Document.Документ74.Attribute.Ветеринар" id="3bf4ab63-58a0-4d82-9208-be1a47feda5c"/>
+			<Metadata name="Document.Документ74.Attribute.Питомец" id="cc00b66f-164f-49ca-b92b-235106da9c21"/>
+		</Metadata>
+		<Metadata name="Document.Документ74.Form.ФормаДокумента" id="c51cacd5-00f9-4e15-8d3c-c511a105e923" configVersion="8973344a0af9f24e9ab145e94f6d33d800000000"/>
+		<Metadata name="Document.Документ74.Form.ФормаДокумента.Form" id="c51cacd5-00f9-4e15-8d3c-c511a105e923.0" configVersion="6681051bbc7a8648bf836254ce6de14c00000000"/>
+		<Metadata name="Document.Документ75" id="9b98ed21-6437-4799-b716-d89c01e9c0e3" configVersion="568e2da82c93574b8501fd505338654000000000"/>
+		<Metadata name="Document.Документ76" id="43836f81-c8ad-4df6-9fae-062d9e7fa46d" configVersion="44db4719e388c046ab032dedfc795f2d00000000"/>
+		<Metadata name="Document.Документ77" id="2ef25c6c-9111-4143-8480-8ddaeab7f42f" configVersion="ea876103dad7ab43a4e614dfb5bff23d00000000"/>
+		<Metadata name="Document.Документ78" id="74d45e44-53a4-4c65-94da-b352cb608cc4" configVersion="bac5ce9b3c39144a960e477dd9e6991e00000000"/>
+		<Metadata name="Document.Документ79" id="587b38a9-11c6-4db7-a34a-0df9d6507fec" configVersion="c4cb4758db0879458667ef19d949ead900000000"/>
+		<Metadata name="Document.Документ8" id="2670999e-a74a-4759-b44f-0117603b6895" configVersion="ae32088b78346a43b59c1075be48da6b00000000"/>
+		<Metadata name="Document.Документ80" id="4ca3bd7d-73ef-4d47-acc1-f03bb2a12e06" configVersion="2de4ef9d79fdc34fbf23c983419ed18f00000000"/>
+		<Metadata name="Document.Документ81" id="1edd717d-2988-49a9-8a6c-344645e50f1c" configVersion="f23ee731e12f3146ab00504eeb56ca3500000000"/>
+		<Metadata name="Document.Документ82" id="945c12e5-13ad-4276-b9e4-e77824e77a4b" configVersion="a6e3aa696ca6904dadf22824dc40e05400000000"/>
+		<Metadata name="Document.Документ83" id="baa344dd-abb7-4b31-b5ae-03378d1362cc" configVersion="cf4b2303db1ca3468ac6d35d940ead8400000000"/>
+		<Metadata name="Document.Документ84" id="199ee392-d905-4ac8-b631-acf5b013cf45" configVersion="57eb2f6f06c3044b90aff8e863bf8c6800000000"/>
+		<Metadata name="Document.Документ85" id="777d1a66-70a1-4f75-be97-67f549a15b6a" configVersion="7c4da228dc37c24db98325436295fc5400000000"/>
+		<Metadata name="Document.Документ86" id="db52efe7-65d3-47ea-ae91-2a9eed3c198f" configVersion="1d73806bcf5d724fa84c1a161a2d384400000000"/>
+		<Metadata name="Document.Документ87" id="ea281352-92e6-4513-95b8-fb0220a579ed" configVersion="9aee7a24ad1baa4390dae9ac4422e73a00000000"/>
+		<Metadata name="Document.Документ88" id="2629d0ee-d91a-47bc-8984-93a6e0271f9c" configVersion="dd10a95866988741861aa9bb6a0df85300000000"/>
+		<Metadata name="Document.Документ89" id="30d45ff0-c285-4eda-9c7d-bf05d966150e" configVersion="95fb8c6e0f303e449fec67500d2c37e100000000"/>
+		<Metadata name="Document.Документ9" id="abf00265-7e6b-4265-a12d-8db01d852d65" configVersion="f00bbecdb5b660428be06938bef2e9e500000000"/>
+		<Metadata name="Document.Документ90" id="e52cbc34-3c5b-4684-b6f4-4629d57c647d" configVersion="ee2b457d4c6e684baf08d401540da3e200000000"/>
+		<Metadata name="Document.Документ91" id="964749f8-ccf6-4fd2-96e2-f5b4ad5489f0" configVersion="b51bad0a7f913a4eb21efcc218bac60e00000000"/>
+		<Metadata name="Document.Документ92" id="5b7f3807-bbdf-4f1d-847e-b1238ecb9c44" configVersion="19595d7229586f479f3e523b2d38bc7100000000"/>
+		<Metadata name="Document.Документ93" id="c8362472-dc66-44d1-83cb-5a6aaf538c41" configVersion="1873f98969c3f54b836b3187750e787a00000000"/>
+		<Metadata name="Document.Документ94" id="37da6147-295b-46b5-a3bf-edbec0c108ad" configVersion="5bd7b99bdce90540b60ea3daab11215600000000"/>
+		<Metadata name="Document.Документ95" id="4d0ea3ea-a67a-4032-a3ef-2537ee6803e1" configVersion="ab8654031d8f334994789808c17ee1a800000000"/>
+		<Metadata name="Document.Документ96" id="5db9b4d8-8399-42d2-94ee-2f5323183f95" configVersion="bf4595afe2d905479946094b88fd799600000000"/>
+		<Metadata name="Document.Документ97" id="2ea863b7-cbf6-484a-9185-2cfaa50bf51b" configVersion="4fa798583e86ae4b9cda9ad6fe04442600000000">
+			<Metadata name="Document.Документ97.Attribute.Питомец" id="bc03001d-5e69-4cb4-a48e-532853b416db"/>
+			<Metadata name="Document.Документ97.Attribute.Ветеринар" id="bf8810fd-0353-4601-8885-16c07f5eeb31"/>
+		</Metadata>
+		<Metadata name="Document.Документ97.Form.ФормаДокумента" id="25a488a2-5cb1-47e2-8422-96c8c9c188c7" configVersion="32c34e28af1e634ca2e00a5b407e84b100000000"/>
+		<Metadata name="Document.Документ97.Form.ФормаДокумента.Form" id="25a488a2-5cb1-47e2-8422-96c8c9c188c7.0" configVersion="d2a42a8b092e7441b00ed21cc688476700000000"/>
+		<Metadata name="Document.Документ98" id="d2477fc8-4246-4629-a346-b9e931f6670c" configVersion="ec5a78f9acbe3e4485056bd93d7da15e00000000"/>
+		<Metadata name="Document.Документ99" id="7eeab1f0-9a4e-41e9-929e-4685217a3b89" configVersion="e6123d17427b1e43ad554fa38a788d1d00000000">
+			<Metadata name="Document.Документ99.Attribute.Ветеринар" id="30ea8e6e-ff15-4ed6-80eb-78f50907dec6"/>
+			<Metadata name="Document.Документ99.Attribute.Питомец" id="8191b06a-197e-45b0-b066-c2132ecba8d1"/>
+		</Metadata>
+		<Metadata name="Document.Документ99.Form.ФормаДокумента" id="b593b0f9-5734-4c6c-84fc-9da3a881592e" configVersion="1857f96d006c6241bd38e95e9b292f1300000000"/>
+		<Metadata name="Document.Документ99.Form.ФормаДокумента.Form" id="b593b0f9-5734-4c6c-84fc-9da3a881592e.0" configVersion="ce539b629f419040b67345757c6d198d00000000"/>
+		<Metadata name="Document.Назначение" id="0f9e60a0-f52f-4074-b15c-b61eca3fac74" configVersion="4fd938f7488a0a4392d801c43b626b9600000000">
+			<Metadata name="Document.Назначение.TabularSection.Состав.Attribute.Количество" id="346d36ce-7f14-484c-8be8-9c144e2b7060"/>
+			<Metadata name="Document.Назначение.TabularSection.Состав.Attribute.Номенклатура" id="4a988312-71c6-4bb8-995b-b313e507fb35"/>
+			<Metadata name="Document.Назначение.Attribute.Питомец" id="5a27d64a-83f5-4d80-ac32-75ead9b11519"/>
+			<Metadata name="Document.Назначение.Attribute.Ветеринар" id="7e3a6ff4-f271-4208-9683-f342478ac619"/>
+			<Metadata name="Document.Назначение.TabularSection.Состав" id="87380879-3829-4b21-a61c-c713b54cf70b"/>
+		</Metadata>
+		<Metadata name="Document.Счет" id="59454883-2802-459f-9e2e-529481cd4b5c" configVersion="4ecdc5e01971db438309e3c0b004940400000000">
+			<Metadata name="Document.Счет.Attribute.Клиент" id="0cd77883-c781-4a0f-8609-7297f94f5bdc"/>
+			<Metadata name="Document.Счет.TabularSection.Состав.Attribute.Цена" id="4d788458-d18f-4575-a017-ba1f8d69b277"/>
+			<Metadata name="Document.Счет.TabularSection.Состав" id="71f4eec6-32d3-4732-89ca-9e9eea062928"/>
+			<Metadata name="Document.Счет.Attribute.Питомец" id="779cc8db-ce6f-4946-bd7e-cfe9a7c3ce26"/>
+			<Metadata name="Document.Счет.TabularSection.Состав.Attribute.Количество" id="81d671a0-2a71-4e04-b4ea-70dc47efbc4f"/>
+			<Metadata name="Document.Счет.TabularSection.Состав.Attribute.Сумма" id="bcec8c60-9fad-4166-868f-d52d98eba0de"/>
+			<Metadata name="Document.Счет.Attribute.Ветеринар" id="c6196507-a581-49c0-b5eb-d88377919d5b"/>
+			<Metadata name="Document.Счет.TabularSection.Состав.Attribute.Номенклатура" id="fe73e1f9-d5fe-4120-b74c-215ff1207ea5"/>
+		</Metadata>
+		<Metadata name="Document.Чек" id="556495ba-33e3-4277-91e6-a321895f314d" configVersion="fd23782228d878429862d25174ebf16200000000">
+			<Metadata name="Document.Чек.Attribute.Сумма" id="12f979f3-28b6-4a42-8025-56ecc3e2d1f0"/>
+			<Metadata name="Document.Чек.Attribute.Клиент" id="5107a218-c7fa-47fe-b897-b50114341530"/>
+			<Metadata name="Document.Чек.Attribute.Счет" id="b828df4e-852a-4bd7-821f-c9ef12f1523e"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыНоменклатуры" id="6f1ea2a1-4004-4720-81b1-0ad40fb0c84f" configVersion="e2701fc6f212a5419ab71cf23c54927700000000">
+			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.Товар" id="5837c8c6-8453-4ac7-a85d-57afcf7920bc"/>
+			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.Услуга" id="80070265-f97d-4034-aedc-eed13dda9d3f"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="9057c207-b601-4aaa-909f-0dee60a2b8d6" configVersion="18983ec48901cb49972cf77e2f98df5f00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
